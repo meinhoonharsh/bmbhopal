@@ -35,7 +35,7 @@ var currentLanguageId;
 
 var $selectLanguage;
 var $compilerOptions;
-var $commandLineArguments;
+// var $commandLineArguments;
 var $insertTemplateBtn;
 var $runBtn;
 var $navigationMessage;
@@ -205,7 +205,7 @@ function run() {
   var stdinValue = encode(stdinEditor.getValue());
   var languageId = resolveLanguageId($selectLanguage.val());
   var compilerOptions = $compilerOptions.val();
-  var commandLineArguments = $commandLineArguments.val();
+  // var commandLineArguments = $commandLineArguments.val();
 
   if (parseInt(languageId) === 44) {
     sourceValue = sourceEditor.getValue();
@@ -216,7 +216,7 @@ function run() {
     language_id: languageId,
     stdin: stdinValue,
     compiler_options: compilerOptions,
-    command_line_arguments: commandLineArguments,
+    // command_line_arguments: commandLineArguments,
     redirect_stderr_to_stdout: true,
   };
 
@@ -375,11 +375,11 @@ $(document).ready(function () {
   });
 
   $compilerOptions = $("#compiler-options");
-  $commandLineArguments = $("#command-line-arguments");
-  $commandLineArguments.attr(
-    "size",
-    $commandLineArguments.attr("placeholder").length
-  );
+  // $commandLineArguments = $("#command-line-arguments");
+  // $commandLineArguments.attr(
+  //   "size",
+  //   $commandLineArguments.attr("placeholder").length
+  // );
 
   $insertTemplateBtn = $("#insert-template-btn");
   $insertTemplateBtn.click(function (e) {
