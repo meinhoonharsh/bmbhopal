@@ -1,5 +1,4 @@
-const API_KEY = "eca780e45dmsh053a4329c6179b5p1f5a37jsn113af51c6086"; // Get yours for free at https://judge0.com/ce and https://judge0.com/extra-ce
-
+const API_KEY = "eca780e45dmsh053a4329c6179b5p1f5a37jsn113af51c6086";
 const AUTH_HEADERS = API_KEY
   ? {
       "X-RapidAPI-Key": API_KEY,
@@ -366,10 +365,6 @@ $(window).resize(function () {
 $(document).ready(function () {
   updateScreenElements();
 
-  console.log(
-    "Hey, Judge0 IDE is open-sourced: https://github.com/judge0/ide. Have fun!"
-  );
-
   $selectLanguage = $("#select-language");
   $selectLanguage.change(function (e) {
     if (!isEditorDirty) {
@@ -556,11 +551,10 @@ var basicSource = 'PRINT "hello, world"';
 
 var cSource =
   '\
-// Powered by Judge0\n\
 #include <stdio.h>\n\
 \n\
 int main(void) {\n\
-    printf("Hello Judge0!\\n");\n\
+    printf("Hello Bhopal!\\n");\n\
     return 0;\n\
 }\n\
 ';
