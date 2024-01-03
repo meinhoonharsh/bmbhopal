@@ -9217,3 +9217,19 @@ ol {
     opacity: 0.5;
   }
 }
+
+.whyus-icon {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whyus-icon img {
+  max-height: 75px;
+}
+
+.whyus-line h5 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
