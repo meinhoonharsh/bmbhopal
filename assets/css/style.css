@@ -18,24 +18,129 @@ Tags: LMS , Online learning managment.
 /* @@@@@@@@@@@@@  Extend Property CSS start here  @@@@@@@@@@@@@@ */
 /*=========<<Flex property extends start>>=========*/
 @import url("../../../../../css2");
-.cart__bottom-shipingbox .cart-overview ul li, .cart__top table tbody tr td.course-item, .social, .blog--style1 .blog__view, .course--style4 .course__content-footer, .course--style1 .course__view, .course--style1 .course__content-bottom .course-price, .course--style1 .course__content-bottom, .btn-group, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-start--style2, .header-wrapper .header-start--style1, .header-wrapper {
+.cart__bottom-shipingbox .cart-overview ul li,
+.cart__top table tbody tr td.course-item,
+.social,
+.blog--style1 .blog__view,
+.course--style4 .course__content-footer,
+.course--style1 .course__view,
+.course--style1 .course__content-bottom .course-price,
+.course--style1 .course__content-bottom,
+.btn-group,
+.menu,
+.header-wrapper .menu-area .header-btn,
+.header-wrapper .menu-area,
+.header-wrapper .header-start--style2,
+.header-wrapper .header-start--style1,
+.header-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 
-.cta__content-inner .subtitle, .coursedetails--style1 .coursedetails__offer-social .social, .gallery__item a, .account__social-btn, .pageheader__content .breadcrumb, .subtitle--style2 {
+.cta__content-inner .subtitle,
+.coursedetails--style1 .coursedetails__offer-social .social,
+.gallery__item a,
+.account__social-btn,
+.pageheader__content .breadcrumb,
+.subtitle--style2 {
   justify-content: center;
 }
 
-.sidebar__comment .body ul li .comment .content__top, .order__option-item, .cart__bottom-shipingbox .cart-overview ul li, .accordion__button, .coursedetails--style2 .coursedetails__header, .coursedetails--style1 .coursedetails__coursereviews, .coursedetails--style1 .coursedetails__footer, .testimonial--style2 .testimonial__footer, .blog--style2 .blog__header, .blog--style1 .blog__view, .blog--style1 .blog__header, .course--style4 .course__content-footer, .course--style4 .course__content-top, .course--style3 .course__content-bottom, .course--style3 .course__content-top, .course--style3 .course__wrapper ul, .course--style2 .course__content, .course--style1 .course__view, .course--style1 .course__content-bottom, .course--style1 .course__content-top, .about--style5 .about__counter, .account__form-passcheck, .header-wrapper .header-start--style1, .header-wrapper {
+.sidebar__comment .body ul li .comment .content__top,
+.order__option-item,
+.cart__bottom-shipingbox .cart-overview ul li,
+.accordion__button,
+.coursedetails--style2 .coursedetails__header,
+.coursedetails--style1 .coursedetails__coursereviews,
+.coursedetails--style1 .coursedetails__footer,
+.testimonial--style2 .testimonial__footer,
+.blog--style2 .blog__header,
+.blog--style1 .blog__view,
+.blog--style1 .blog__header,
+.course--style4 .course__content-footer,
+.course--style4 .course__content-top,
+.course--style3 .course__content-bottom,
+.course--style3 .course__content-top,
+.course--style3 .course__wrapper ul,
+.course--style2 .course__content,
+.course--style1 .course__view,
+.course--style1 .course__content-bottom,
+.course--style1 .course__content-top,
+.about--style5 .about__counter,
+.account__form-passcheck,
+.header-wrapper .header-start--style1,
+.header-wrapper {
   justify-content: space-between;
 }
 
-.studentreview__thumb-top, .sidebar__comment .body ul li .comment .content__top, .sidebar__recentpost .body ul li, .order__option-item, .order__details .table tr td .o-info .c-reviews ul, .order__details .table tr td .o-info .c-reviews, .order__details .table tr td .o-info, .cart__bottom-shipingbox .cart-overview ul li, .cart__top table tbody tr td.course-item .c-content .c-reviews ul, .cart__top table tbody tr td.course-item .c-content .c-reviews, .cart__top table tbody tr td.course-item, .accordion__button .lesson, .cta__content-inner .subtitle, .coursedetails--style2 .coursedetails__header, .coursedetails--style1 .coursedetails__coursereviews, .coursedetails--style1 .coursedetails__footer, .coursedetails--style1 .coursedetails__offer-price, .coursedetails--style1 .coursedetails__info ul li, .coursedetails--style1 .coursedetails__focus-star ul, .coursedetails--style1 .coursedetails__focus, .testimonial--style3 .testimonial__storyteller, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .social, .blog--details .blog__tag .tags, .blog--details .blog__tag .social-link-list li a, .blog--style2 .blog__writer, .blog--style2 .blog__author, .blog--style2 .blog__header, .blog--style1 .blog__focus-inner, .blog--style1 .blog__view, .blog--style1 .blog__header, .course--style4 .course__content-footer span, .course--style4 .course__content-footer, .course--style4 .course__author a, .course--style3 .course__mentor, .course--style3 .course__focus, .course--style3 .course__content-bottom, .course--style3 .course__wrapper ul li, .course--style2 .course__focus, .course--style2 .course__content, .course--style1 .course__topbar-right ul li, .course--style1 .course__focus-inner, .course--style1 .course__view, .course--style1 .course__content-bottom .course-price, .course--style1 .course__content-bottom a, .course--style1 .course__content-bottom, .about--style5 .about__counter, .btn-group, .text-btn, .footer__end-links, .footer__post .footer__wrapper ul li, .account__form-passcheck, .contact__item, .banner .reviews__thumb ul, .banner__content--style1 .play-btn, .banner__content-star, .subtitle, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper .header-start--style2, .header-wrapper, .community__reviews-content ul {
+.studentreview__thumb-top,
+.sidebar__comment .body ul li .comment .content__top,
+.sidebar__recentpost .body ul li,
+.order__option-item,
+.order__details .table tr td .o-info .c-reviews ul,
+.order__details .table tr td .o-info .c-reviews,
+.order__details .table tr td .o-info,
+.cart__bottom-shipingbox .cart-overview ul li,
+.cart__top table tbody tr td.course-item .c-content .c-reviews ul,
+.cart__top table tbody tr td.course-item .c-content .c-reviews,
+.cart__top table tbody tr td.course-item,
+.accordion__button .lesson,
+.cta__content-inner .subtitle,
+.coursedetails--style2 .coursedetails__header,
+.coursedetails--style1 .coursedetails__coursereviews,
+.coursedetails--style1 .coursedetails__footer,
+.coursedetails--style1 .coursedetails__offer-price,
+.coursedetails--style1 .coursedetails__info ul li,
+.coursedetails--style1 .coursedetails__focus-star ul,
+.coursedetails--style1 .coursedetails__focus,
+.testimonial--style3 .testimonial__storyteller,
+.testimonial--style2 .testimonial__author,
+.testimonial--style2 .testimonial__footer,
+.social,
+.blog--details .blog__tag .tags,
+.blog--details .blog__tag .social-link-list li a,
+.blog--style2 .blog__writer,
+.blog--style2 .blog__author,
+.blog--style2 .blog__header,
+.blog--style1 .blog__focus-inner,
+.blog--style1 .blog__view,
+.blog--style1 .blog__header,
+.course--style4 .course__content-footer span,
+.course--style4 .course__content-footer,
+.course--style4 .course__author a,
+.course--style3 .course__mentor,
+.course--style3 .course__focus,
+.course--style3 .course__content-bottom,
+.course--style3 .course__wrapper ul li,
+.course--style2 .course__focus,
+.course--style2 .course__content,
+.course--style1 .course__topbar-right ul li,
+.course--style1 .course__focus-inner,
+.course--style1 .course__view,
+.course--style1 .course__content-bottom .course-price,
+.course--style1 .course__content-bottom a,
+.course--style1 .course__content-bottom,
+.about--style5 .about__counter,
+.btn-group,
+.text-btn,
+.footer__end-links,
+.footer__post .footer__wrapper ul li,
+.account__form-passcheck,
+.contact__item,
+.banner .reviews__thumb ul,
+.banner__content--style1 .play-btn,
+.banner__content-star,
+.subtitle,
+.header-wrapper .menu-area .header-btn,
+.header-wrapper .menu-area,
+.header-wrapper .header-start--style2,
+.header-wrapper,
+.community__reviews-content ul {
   align-items: center;
 }
 
-.about--style3 .about__details-item, .about--style2 .about__content-item {
+.about--style3 .about__details-item,
+.about--style2 .about__content-item {
   align-items: flex-start;
 }
 
@@ -53,7 +158,16 @@ Tags: LMS , Online learning managment.
 
 /*=========<<Flex property extends end>>=========*/
 /*=========<<Display property extends start>>=========*/
-.accordion__button .lesson .lesson-number, .testimonial--style2 .testimonial__shape-item:nth-child(2), .testimonial--style2 .testimonial__shape-item:nth-child(1), .about--style4 .about__shape-item, .banner__icon--style1 .banner__icon-item:nth-child(3), .banner__shape--style2 .banner__shape-item:nth-child(3), .banner__shape--style2 .banner__shape-item:nth-child(1), .banner__shape--style1 .banner__shape-item:nth-child(6), .banner__shape--style1 .banner__shape-item:nth-child(3), .banner__shape--style1 .banner__shape-item:nth-child(1) {
+.accordion__button .lesson .lesson-number,
+.testimonial--style2 .testimonial__shape-item:nth-child(2),
+.testimonial--style2 .testimonial__shape-item:nth-child(1),
+.about--style4 .about__shape-item,
+.banner__icon--style1 .banner__icon-item:nth-child(3),
+.banner__shape--style2 .banner__shape-item:nth-child(3),
+.banner__shape--style2 .banner__shape-item:nth-child(1),
+.banner__shape--style1 .banner__shape-item:nth-child(6),
+.banner__shape--style1 .banner__shape-item:nth-child(3),
+.banner__shape--style1 .banner__shape-item:nth-child(1) {
   display: none;
 }
 
@@ -61,43 +175,221 @@ Tags: LMS , Online learning managment.
   display: inherit;
 }
 
-.accordion__body .overview-list li, .header-wrapper .logo a {
+.accordion__body .overview-list li,
+.header-wrapper .logo a {
   display: block;
 }
 
-.studentreview__thumb-top, .sidebar__comment .body ul li .comment .content__top, .sidebar__comment .body ul li .comment, .sidebar__recentpost .body ul li, .order__option-item, .order__details .table tr td .o-info .c-reviews ul, .order__details .table tr td .o-info .c-reviews, .order__details .table tr td .o-info, .cart__bottom-checkoutbox .cart-checkout, .cart__top table tbody tr td.course-item .c-content .c-reviews ul, .cart__top table tbody tr td.course-item .c-content .c-reviews, .accordion__button .lesson, .accordion__button, .cta__content-inner .subtitle, .coursedetails--style1 .coursedetails__coursereviews-author, .coursedetails--style1 .coursedetails__coursereviews, .coursedetails--style1 .coursedetails__footer, .coursedetails--style1 .coursedetails__offer-price, .coursedetails--style1 .coursedetails__overview .overview-list li, .coursedetails--style1 .coursedetails__focus-star ul, .coursedetails--style1 .coursedetails__focus, .testimonial--style3 .testimonial__storyteller, .testimonial--style2 .testimonial__author, .testimonial--style2 .testimonial__footer, .blog--details .blog__tag .tags, .blog--details .blog__tag .social-link-list, .blog--details .blog__meta ul, .blog--style2 .blog__writer, .blog--style2 .blog__author, .blog--style2 .blog__header, .blog--style1 .blog__header, .course--style4 .course__content-top, .course--style3 .course__mentor, .course--style3 .course__content-bottom, .course--style3 .course__content-top, .course--style2 .course__content, .course--style1 .course__content-top, .about--style5 .about__counter, .about--style3 .about__details-item, .about--style2 .about__content-item, .categories--style2 .categories__item, .footer__end-links, .footer__post .footer__wrapper ul li, .footer__about-inner, .account__form-passcheck, .contact__item, .banner .reviews__thumb ul, .banner .reviews__thumb, .banner__content-star, .subtitle, .paginations ul li a, .community__reviews-content ul, .community__reviews-content {
+.studentreview__thumb-top,
+.sidebar__comment .body ul li .comment .content__top,
+.sidebar__comment .body ul li .comment,
+.sidebar__recentpost .body ul li,
+.order__option-item,
+.order__details .table tr td .o-info .c-reviews ul,
+.order__details .table tr td .o-info .c-reviews,
+.order__details .table tr td .o-info,
+.cart__bottom-checkoutbox .cart-checkout,
+.cart__top table tbody tr td.course-item .c-content .c-reviews ul,
+.cart__top table tbody tr td.course-item .c-content .c-reviews,
+.accordion__button .lesson,
+.accordion__button,
+.cta__content-inner .subtitle,
+.coursedetails--style1 .coursedetails__coursereviews-author,
+.coursedetails--style1 .coursedetails__coursereviews,
+.coursedetails--style1 .coursedetails__footer,
+.coursedetails--style1 .coursedetails__offer-price,
+.coursedetails--style1 .coursedetails__overview .overview-list li,
+.coursedetails--style1 .coursedetails__focus-star ul,
+.coursedetails--style1 .coursedetails__focus,
+.testimonial--style3 .testimonial__storyteller,
+.testimonial--style2 .testimonial__author,
+.testimonial--style2 .testimonial__footer,
+.blog--details .blog__tag .tags,
+.blog--details .blog__tag .social-link-list,
+.blog--details .blog__meta ul,
+.blog--style2 .blog__writer,
+.blog--style2 .blog__author,
+.blog--style2 .blog__header,
+.blog--style1 .blog__header,
+.course--style4 .course__content-top,
+.course--style3 .course__mentor,
+.course--style3 .course__content-bottom,
+.course--style3 .course__content-top,
+.course--style2 .course__content,
+.course--style1 .course__content-top,
+.about--style5 .about__counter,
+.about--style3 .about__details-item,
+.about--style2 .about__content-item,
+.categories--style2 .categories__item,
+.footer__end-links,
+.footer__post .footer__wrapper ul li,
+.footer__about-inner,
+.account__form-passcheck,
+.contact__item,
+.banner .reviews__thumb ul,
+.banner .reviews__thumb,
+.banner__content-star,
+.subtitle,
+.paginations ul li a,
+.community__reviews-content ul,
+.community__reviews-content {
   display: flex;
 }
 
-.counter--style2 .counter__item-inner, .course--style1 .course__topbar, .categories--style2 .categories__item-btn {
+.counter--style2 .counter__item-inner,
+.course--style1 .course__topbar,
+.categories--style2 .categories__item-btn {
   display: grid;
 }
 
-.social__link, .blog--details .blog__meta ul li, .blog--style3 .blog__meta-tag, .blog--style1 .blog__meta-tag, .course--style1 .course__meta-tag, .tab-btn, .trk-btn, .footer__linklist-item a, .account__switch a, .account__social-btn span, .header-bar span {
+.social__link,
+.blog--details .blog__meta ul li,
+.blog--style3 .blog__meta-tag,
+.blog--style1 .blog__meta-tag,
+.course--style1 .course__meta-tag,
+.tab-btn,
+.trk-btn,
+.footer__linklist-item a,
+.account__switch a,
+.account__social-btn span,
+.header-bar span {
   display: inline-block;
 }
 
-.coursedetails--style2 .coursedetails__info, .blog--details .blog__tag .social-link-list li a, .blog--style1 .blog__focus-inner, .course--style4 .course__content-footer span, .course--style4 .course__author a, .course--style3 .course__focus, .course--style2 .course__focus, .course--style1 .course__focus-inner, .course--style1 .course__content-bottom a, .banner .reviews__content p span, .banner__content--style1 .play-btn {
+.coursedetails--style2 .coursedetails__info,
+.blog--details .blog__tag .social-link-list li a,
+.blog--style1 .blog__focus-inner,
+.course--style4 .course__content-footer span,
+.course--style4 .course__author a,
+.course--style3 .course__focus,
+.course--style2 .course__focus,
+.course--style1 .course__focus-inner,
+.course--style1 .course__content-bottom a,
+.banner .reviews__content p span,
+.banner__content--style1 .play-btn {
   display: inline-flex;
 }
 
-.coursedetails--style1 .coursedetails__info ul li, .course--style3 .course__wrapper ul li, .course--style1 .course__topbar-right ul li {
+.coursedetails--style1 .coursedetails__info ul li,
+.course--style3 .course__wrapper ul li,
+.course--style1 .course__topbar-right ul li {
   display: inline-grid;
 }
 
 /*=========<<Display property extends end>>=========*/
 /*=========<<Position property extends start>>=========*/
-.newsletter__content-inner--style4, .newsletter__content-inner--style1, .studentreview__thumb, .sidebar__search form button, .sidebar__search form, .sidebar .head, .checkout__title, .cart__bottom-shipingbox .cart-overview h4, .accordion__button .plus-icon, .coursedetails--style1 .coursedetails__thumb, .gallery__item a, .gallery__item, .testimonial--style3 .testimonial__thumb, .testimonial--style2 .testimonial__wrapper, .community--style2 .community__thumb-inner, .community--style1 .community__reviews, .blog--style3 .blog__thumb, .blog--style2 .blog__thumb, .blog--style1 .blog__meta-comment, .blog--style1 .blog__thumb, .team--style1 .team__item-thumb, .team--style1 .team__item-inner, .story__thumb-inner, .course--style4 .course__thumb, .course--style2 .course__content, .course--style2 .course__thumb, .course--style1 .course__meta-comment, .course--style1 .course__thumb, .about--style4, .about--style3 .about, .about--style1 .about__content-inner .subtitle, .about--style1 .about__thumb-video, .about--style1 .about__thumb-image, .categories--style3 .categories__item, .categories--style1 .categories__item-inner, .trk-btn, .footer__linklist-item a, .contact__item-thumb, .banner .reviews__thumb ul li .count, .banner__video-inner, .banner__content--style1, .banner--style3, .banner.brand-3, .banner.brand-4 .banner-image, .banner.brand-4, .banner.brand-1 .banner-image, .banner.brand-1, .menu-item-has-children > a, .header-bar, .course__search form button, .course__search form, .searchbar__wrapper, .paginations ul li a, .form {
+.newsletter__content-inner--style4,
+.newsletter__content-inner--style1,
+.studentreview__thumb,
+.sidebar__search form button,
+.sidebar__search form,
+.sidebar .head,
+.checkout__title,
+.cart__bottom-shipingbox .cart-overview h4,
+.accordion__button .plus-icon,
+.coursedetails--style1 .coursedetails__thumb,
+.gallery__item a,
+.gallery__item,
+.testimonial--style3 .testimonial__thumb,
+.testimonial--style2 .testimonial__wrapper,
+.community--style2 .community__thumb-inner,
+.community--style1 .community__reviews,
+.blog--style3 .blog__thumb,
+.blog--style2 .blog__thumb,
+.blog--style1 .blog__meta-comment,
+.blog--style1 .blog__thumb,
+.team--style1 .team__item-thumb,
+.team--style1 .team__item-inner,
+.story__thumb-inner,
+.course--style4 .course__thumb,
+.course--style2 .course__content,
+.course--style2 .course__thumb,
+.course--style1 .course__meta-comment,
+.course--style1 .course__thumb,
+.about--style4,
+.about--style3 .about,
+.about--style1 .about__content-inner .subtitle,
+.about--style1 .about__thumb-video,
+.about--style1 .about__thumb-image,
+.categories--style3 .categories__item,
+.categories--style1 .categories__item-inner,
+.trk-btn,
+.footer__linklist-item a,
+.contact__item-thumb,
+.banner .reviews__thumb ul li .count,
+.banner__video-inner,
+.banner__content--style1,
+.banner--style3,
+.banner.brand-3,
+.banner.brand-4 .banner-image,
+.banner.brand-4,
+.banner.brand-1 .banner-image,
+.banner.brand-1,
+.menu-item-has-children > a,
+.header-bar,
+.course__search form button,
+.course__search form,
+.searchbar__wrapper,
+.paginations ul li a,
+.form {
   position: relative;
 }
 
-.studentreview__thumb-playbtn, .studentreview__thumb-top, .sidebar .head h3.comment::after, .checkout__title h5::after, .cart__bottom-shipingbox .cart-overview h4::after, .accordion__button .plus-icon:before, .accordion__button .plus-icon:after, .coursedetails--style1 .coursedetails__thumb-playbtn, .gallery__item-view, .gallery__item a::after, .testimonial--style3 .testimonial__thumb-playbtn, .testimonial--style2 .testimonial__shape-item, .community--style2 .community__thumb-playbtn, .blog--style1 .blog__btn, .team--style1 .team__item-content--style2, .team--style1 .team__item-content--style1, .team--style1 .team__item-inner::after, .story__thumb-playbtn, .course--style2 .course__thumb-add, .course--style1 .course__btn, .about--style4 .about__shape-item, .about--style3 .about__icon-item, .about--style1 .about__content-inner .subtitle::after, .about--style1 .about__thumb-plybtn, .about--style1 .about__thumb-video, .footer__linklist-item a::after, .contact__item-thumb i,
-.contact__item-thumb svg, .banner .reviews__thumb ul li .count .purecounter, .banner__icon--style2 .banner__icon-item, .banner__icon--style1 .banner__icon-item, .banner__shape--style2 .banner__shape-item, .banner__shape--style1 .banner__shape-item, .banner__video-inner span, .banner__video, .banner.brand-4::after, .banner.brand-1::after, .menu-item-has-children > a::before, .menu-item-has-children > a::after, .header-bar span, .header-section--style2, .searchbar__close {
+.studentreview__thumb-playbtn,
+.studentreview__thumb-top,
+.sidebar .head h3.comment::after,
+.checkout__title h5::after,
+.cart__bottom-shipingbox .cart-overview h4::after,
+.accordion__button .plus-icon:before,
+.accordion__button .plus-icon:after,
+.coursedetails--style1 .coursedetails__thumb-playbtn,
+.gallery__item-view,
+.gallery__item a::after,
+.testimonial--style3 .testimonial__thumb-playbtn,
+.testimonial--style2 .testimonial__shape-item,
+.community--style2 .community__thumb-playbtn,
+.blog--style1 .blog__btn,
+.team--style1 .team__item-content--style2,
+.team--style1 .team__item-content--style1,
+.team--style1 .team__item-inner::after,
+.story__thumb-playbtn,
+.course--style2 .course__thumb-add,
+.course--style1 .course__btn,
+.about--style4 .about__shape-item,
+.about--style3 .about__icon-item,
+.about--style1 .about__content-inner .subtitle::after,
+.about--style1 .about__thumb-plybtn,
+.about--style1 .about__thumb-video,
+.footer__linklist-item a::after,
+.contact__item-thumb i,
+.contact__item-thumb svg,
+.banner .reviews__thumb ul li .count .purecounter,
+.banner__icon--style2 .banner__icon-item,
+.banner__icon--style1 .banner__icon-item,
+.banner__shape--style2 .banner__shape-item,
+.banner__shape--style1 .banner__shape-item,
+.banner__video-inner span,
+.banner__video,
+.banner.brand-4::after,
+.banner.brand-1::after,
+.menu-item-has-children > a::before,
+.menu-item-has-children > a::after,
+.header-bar span,
+.header-section--style2,
+.searchbar__close {
   position: absolute;
 }
 
-.studentreview__thumb-playbtn, .coursedetails--style1 .coursedetails__thumb-playbtn, .gallery__item-view, .testimonial--style3 .testimonial__thumb-playbtn, .community--style2 .community__thumb-playbtn, .story__thumb-playbtn, .about--style1 .about__thumb-plybtn, .contact__item-thumb i,
-.contact__item-thumb svg, .banner .reviews__thumb ul li .count .purecounter {
+.studentreview__thumb-playbtn,
+.coursedetails--style1 .coursedetails__thumb-playbtn,
+.gallery__item-view,
+.testimonial--style3 .testimonial__thumb-playbtn,
+.community--style2 .community__thumb-playbtn,
+.story__thumb-playbtn,
+.about--style1 .about__thumb-plybtn,
+.contact__item-thumb i,
+.contact__item-thumb svg,
+.banner .reviews__thumb ul li .count .purecounter {
   transform: translate(-50%, -50%);
   position: absolute;
   content: "";
@@ -107,7 +399,35 @@ Tags: LMS , Online learning managment.
 
 /*=========<<Position property extends end>>=========*/
 /*=========<<Text property extends start>>=========*/
-.cart__top table thead tr th:nth-child(3), .coursedetails--style2 .coursedetails__info-item, .counter--style2 .counter__item-inner, .counter--style1 .counter__item-inner, .gallery__wrapper, .testimonial--style3 .testimonial__thumb, .testimonial--style1 .testimonial__item, .social__link, .community--style1 .community__reviews, .community--style1 .community__wrapper, .team--style2 .team__item-author, .team--style1 .team__item-author, .categories--style4 .categories__item-inner img, .categories--style4 .categories__item-inner, .categories--style3 .categories__item-content, .categories--style2 .categories__item-inner, .categories--style1 .categories__thumb, .categories--style1 .categories__item-content a, .categories--style1 .categories__item-inner, .tab-btn, .trk-btn, .account__switch, .account__header, .banner__thumb--style3 .banner__thumb-item, .banner__content--style1, .pageheader__content, .slider__pagination-3, .slider__pagination-2, .slider__pagination-1 {
+.cart__top table thead tr th:nth-child(3),
+.coursedetails--style2 .coursedetails__info-item,
+.counter--style2 .counter__item-inner,
+.counter--style1 .counter__item-inner,
+.gallery__wrapper,
+.testimonial--style3 .testimonial__thumb,
+.testimonial--style1 .testimonial__item,
+.social__link,
+.community--style1 .community__reviews,
+.community--style1 .community__wrapper,
+.team--style2 .team__item-author,
+.team--style1 .team__item-author,
+.categories--style4 .categories__item-inner img,
+.categories--style4 .categories__item-inner,
+.categories--style3 .categories__item-content,
+.categories--style2 .categories__item-inner,
+.categories--style1 .categories__thumb,
+.categories--style1 .categories__item-content a,
+.categories--style1 .categories__item-inner,
+.tab-btn,
+.trk-btn,
+.account__switch,
+.account__header,
+.banner__thumb--style3 .banner__thumb-item,
+.banner__content--style1,
+.pageheader__content,
+.slider__pagination-3,
+.slider__pagination-2,
+.slider__pagination-1 {
   text-align: center;
 }
 
@@ -115,23 +435,69 @@ Tags: LMS , Online learning managment.
   text-align: left;
 }
 
-.cart__top table tbody tr td:last-child, .cart__top table thead tr th:last-child, .testimonial--style3 .testimonial__content .quote {
+.cart__top table tbody tr td:last-child,
+.cart__top table thead tr th:last-child,
+.testimonial--style3 .testimonial__content .quote {
   text-align: right;
 }
 
-.order__details .table tfoot tr th p, .order__details .table tr td .o-info a, .order__details .table tr td .o-info .c-reviews p, .cart__top table tbody tr td.unit-price del, .cart__top table tbody tr td.course-item .c-content .c-reviews p, .accordion__button .lesson-name, .testimonial--style1 .testimonial__item-content blockquote p, .text-btn.text-btn--small, .account__switch p, .account__social-btn, .account__form-passcheck .form-check-label {
+.order__details .table tfoot tr th p,
+.order__details .table tr td .o-info a,
+.order__details .table tr td .o-info .c-reviews p,
+.cart__top table tbody tr td.unit-price del,
+.cart__top table tbody tr td.course-item .c-content .c-reviews p,
+.accordion__button .lesson-name,
+.testimonial--style1 .testimonial__item-content blockquote p,
+.text-btn.text-btn--small,
+.account__switch p,
+.account__social-btn,
+.account__form-passcheck .form-check-label {
   font-weight: 400;
 }
 
-.studentreview__item-author h6, .sidebar__comment .body ul li .comment .content__top .name p, .sidebar__categorie .body ul li:hover a, .order__details .table tbody th, .checkout__title p, .cart__bottom-shipingbox ul li span, .cart__bottom-coupon p, .cart__top table tbody tr td.course-item .c-content a, .coursedetails--style1 .coursedetails__overview-helpline .info h6, .counter--style2 .counter__item-content p, .blog--style2 .blog__writer-designation p, .blog--style2 .blog__author-designation span, .team--style1 .team__header p, .about--style1 .about__content-inner .subtitle, .account__form-forgotpass a, .banner__content--style2 .moto, .pageheader__content .breadcrumb .breadcrumb-item a, .pageheader__content .breadcrumb .breadcrumb-item, .subtitle--style5, .subtitle--style4 p {
+.studentreview__item-author h6,
+.sidebar__comment .body ul li .comment .content__top .name p,
+.sidebar__categorie .body ul li:hover a,
+.order__details .table tbody th,
+.checkout__title p,
+.cart__bottom-shipingbox ul li span,
+.cart__bottom-coupon p,
+.cart__top table tbody tr td.course-item .c-content a,
+.coursedetails--style1 .coursedetails__overview-helpline .info h6,
+.counter--style2 .counter__item-content p,
+.blog--style2 .blog__writer-designation p,
+.blog--style2 .blog__author-designation span,
+.team--style1 .team__header p,
+.about--style1 .about__content-inner .subtitle,
+.account__form-forgotpass a,
+.banner__content--style2 .moto,
+.pageheader__content .breadcrumb .breadcrumb-item a,
+.pageheader__content .breadcrumb .breadcrumb-item,
+.subtitle--style5,
+.subtitle--style4 p {
   font-weight: 500;
 }
 
-.sidebar__comment .body ul li .comment .content__top .name h6, .sidebar__recentpost .body ul li .content p, .sidebar .head h6, .cart__top table, .coursedetails--style2 .coursedetails__info-item h6, .coursedetails--style1 .coursedetails__offer-time p span, .coursedetails--style1 .coursedetails__overview h5, .testimonial--style3 .testimonial__storyteller-content h6, .testimonial--style3 .testimonial__writer h5, .team--details .team__content > span, .team--details .team__content h4, .course--style3 .course__price > p, .about--style3 .about__details-text h6, .categories--style3 .categories__item-content a, .contact__item-content h5 {
+.sidebar__comment .body ul li .comment .content__top .name h6,
+.sidebar__recentpost .body ul li .content p,
+.sidebar .head h6,
+.cart__top table,
+.coursedetails--style2 .coursedetails__info-item h6,
+.coursedetails--style1 .coursedetails__offer-time p span,
+.coursedetails--style1 .coursedetails__overview h5,
+.testimonial--style3 .testimonial__storyteller-content h6,
+.testimonial--style3 .testimonial__writer h5,
+.team--details .team__content > span,
+.team--details .team__content h4,
+.course--style3 .course__price > p,
+.about--style3 .about__details-text h6,
+.categories--style3 .categories__item-content a,
+.contact__item-content h5 {
   font-weight: 600;
 }
 
-.order__option-title p, .coursedetails--style1 .coursedetails__focus-rating {
+.order__option-title p,
+.coursedetails--style1 .coursedetails__focus-rating {
   font-weight: 700;
 }
 
@@ -146,7 +512,37 @@ Tags: LMS , Online learning managment.
   margin-block-start: 0;
 }
 
-.studentreview__thumb-top p, .sidebar__comment .body ul li .comment .content__bottom p, .sidebar__recentpost .body ul li .content p, .sidebar .head h4, .sidebar .head h6, .order__details .table tfoot tr th p, .order__details .table tr td .o-info a, .order__details .table tr td .o-info .c-reviews p, .checkout__subtitle p, .cart__bottom-shipingbox .cart-overview ul li .pull-right, .cart__bottom-checkoutbox .cart-checkout input[type=submit], .cart__top table tbody tr td.course-item .c-content .c-reviews p, .coursedetails--style2 .coursedetails__info-item h6, .coursedetails--style1 .coursedetails__coursereviews-designation p, .coursedetails--style1 .coursedetails__coursereviews-designation h6, .coursedetails--style1 .coursedetails__footer p, .coursedetails--style1 .coursedetails__offer-price h3, .counter--style2 .counter__item-content p, .counter--style2 .counter__item-content h3, .testimonial--style2 .testimonial__author-designation h6, .social, .blog--style2 .blog__writer-designation p, .blog--style1 .blog__view-count p, .course--style1 .course__view-count p, .about--style2 .about__content-item p, .footer__post .footer__wrapper ul li .content p a, .footer__post .footer__wrapper ul li:last-child, .account__switch p, .banner__content-star p, .menu, ul,
+.studentreview__thumb-top p,
+.sidebar__comment .body ul li .comment .content__bottom p,
+.sidebar__recentpost .body ul li .content p,
+.sidebar .head h4,
+.sidebar .head h6,
+.order__details .table tfoot tr th p,
+.order__details .table tr td .o-info a,
+.order__details .table tr td .o-info .c-reviews p,
+.checkout__subtitle p,
+.cart__bottom-shipingbox .cart-overview ul li .pull-right,
+.cart__bottom-checkoutbox .cart-checkout input[type="submit"],
+.cart__top table tbody tr td.course-item .c-content .c-reviews p,
+.coursedetails--style2 .coursedetails__info-item h6,
+.coursedetails--style1 .coursedetails__coursereviews-designation p,
+.coursedetails--style1 .coursedetails__coursereviews-designation h6,
+.coursedetails--style1 .coursedetails__footer p,
+.coursedetails--style1 .coursedetails__offer-price h3,
+.counter--style2 .counter__item-content p,
+.counter--style2 .counter__item-content h3,
+.testimonial--style2 .testimonial__author-designation h6,
+.social,
+.blog--style2 .blog__writer-designation p,
+.blog--style1 .blog__view-count p,
+.course--style1 .course__view-count p,
+.about--style2 .about__content-item p,
+.footer__post .footer__wrapper ul li .content p a,
+.footer__post .footer__wrapper ul li:last-child,
+.account__switch p,
+.banner__content-star p,
+.menu,
+ul,
 ol {
   margin-block-end: 0;
 }
@@ -156,32 +552,69 @@ ol {
   margin-block-start: 5px;
 }
 
-.sidebar__comment .body ul li .comment .content__top .name p, .sidebar__comment .body ul li .comment .content__top .name h6, .order__details .table tr td .o-info .c-reviews, .cart__top table tbody tr td.course-item .c-content .c-reviews, .coursedetails--style1 .coursedetails__overview-helpline .info h6, .testimonial--style3 .testimonial__thumb-playbtn p, .blog--style2 .blog__author-designation h6, .team--style1 .team__item-author h6, .footer__post .footer__wrapper ul li .content p, .account__form .form-label {
+.sidebar__comment .body ul li .comment .content__top .name p,
+.sidebar__comment .body ul li .comment .content__top .name h6,
+.order__details .table tr td .o-info .c-reviews,
+.cart__top table tbody tr td.course-item .c-content .c-reviews,
+.coursedetails--style1 .coursedetails__overview-helpline .info h6,
+.testimonial--style3 .testimonial__thumb-playbtn p,
+.blog--style2 .blog__author-designation h6,
+.team--style1 .team__item-author h6,
+.footer__post .footer__wrapper ul li .content p,
+.account__form .form-label {
   margin-block-end: 5px;
 }
 
-.coursedetails--style1 .coursedetails__offer-time p span, .trk-btn span i,
+.coursedetails--style1 .coursedetails__offer-time p span,
+.trk-btn span i,
 .trk-btn span svg,
-.trk-btn span img, .account__switch a {
+.trk-btn span img,
+.account__switch a {
   margin-inline-start: 5px;
 }
 
-.sidebar__categorie .body ul li a i, .accordion__body .overview-list li i,
-.accordion__body .overview-list li svg, .trk-btn i,
-.trk-btn svg, .footer__post .footer__wrapper ul li .content .date i, .footer__links-content img {
+.sidebar__categorie .body ul li a i,
+.accordion__body .overview-list li i,
+.accordion__body .overview-list li svg,
+.trk-btn i,
+.trk-btn svg,
+.footer__post .footer__wrapper ul li .content .date i,
+.footer__links-content img {
   margin-inline-end: 5px;
 }
 
-.blog--style1 .blog__focus-inner img, .course--style2 .course__focus img, .course--style1 .course__focus-inner img {
+.blog--style1 .blog__focus-inner img,
+.course--style2 .course__focus img,
+.course--style1 .course__focus-inner img {
   margin-inline: 5px;
 }
 
 /*-------<< margin properties >>-------*/
-.coursedetails--style1 .coursedetails__coursereviews-designation p, .blog--style2 .blog__large-content h5, .blog--style1 .blog__content .default-btn, .course--style1 .course__content .default-btn {
+.coursedetails--style1 .coursedetails__coursereviews-designation p,
+.blog--style2 .blog__large-content h5,
+.blog--style1 .blog__content .default-btn,
+.course--style1 .course__content .default-btn {
   margin-block-start: 10px;
 }
 
-.sidebar__comment .body ul li .comment .content__top, .order__option-item:not(:last-child), .order__option-title p, .coursedetails--style1 .coursedetails__offer-price, .counter--style1 .counter__item-content h3, .testimonial--style3 .testimonial__thumb-playbtn a img, .testimonial--style3 .testimonial__writer p, .testimonial--style1 .testimonial__item-author > p, .team--details .team__content .designation, .course--style2 .course__content-details h6 a, .course--style2 .course__content-details p, .categories--style4 .categories__item-content h5, .footer__linklist-item:not(:last-child), .footer__links-content img, .footer__cta-content h2, .contact__form h3, .pageheader__content h2, .community__reviews p {
+.sidebar__comment .body ul li .comment .content__top,
+.order__option-item:not(:last-child),
+.order__option-title p,
+.coursedetails--style1 .coursedetails__offer-price,
+.counter--style1 .counter__item-content h3,
+.testimonial--style3 .testimonial__thumb-playbtn a img,
+.testimonial--style3 .testimonial__writer p,
+.testimonial--style1 .testimonial__item-author > p,
+.team--details .team__content .designation,
+.course--style2 .course__content-details h6 a,
+.course--style2 .course__content-details p,
+.categories--style4 .categories__item-content h5,
+.footer__linklist-item:not(:last-child),
+.footer__links-content img,
+.footer__cta-content h2,
+.contact__form h3,
+.pageheader__content h2,
+.community__reviews p {
   margin-block-end: 10px;
 }
 
@@ -190,16 +623,40 @@ ol {
 }
 
 .blog--style1 .blog__view-count p i,
-.blog--style1 .blog__view-count p svg, .course--style1 .course__view-count p i, .course--style1 .course__view-count p svg, .about--style4 .about__content .about-list li img, .about--style1 .about__content-inner .about-list li img, .text-btn.text-btn--small span, .footer__about-item img, .account__social-btn span, .banner__content--style1 .play-btn i, .banner__content--style1 .play-btn svg {
+.blog--style1 .blog__view-count p svg,
+.course--style1 .course__view-count p i,
+.course--style1 .course__view-count p svg,
+.about--style4 .about__content .about-list li img,
+.about--style1 .about__content-inner .about-list li img,
+.text-btn.text-btn--small span,
+.footer__about-item img,
+.account__social-btn span,
+.banner__content--style1 .play-btn i,
+.banner__content--style1 .play-btn svg {
   margin-inline-end: 10px;
 }
 
 /*-------<< margin properties >>-------*/
-.blog--style3 .blog__content-bottom, .blog--style3 .blog__content h6, .blog--style1 .blog__content-bottom, .blog--style1 .blog__content h6, .course--style1 .course__content-bottom, .contact__form .account__form-passcheck {
+.blog--style3 .blog__content-bottom,
+.blog--style3 .blog__content h6,
+.blog--style1 .blog__content-bottom,
+.blog--style1 .blog__content h6,
+.course--style1 .course__content-bottom,
+.contact__form .account__form-passcheck {
   margin-block-start: 15px;
 }
 
-.coursedetails--style2 .coursedetails__header h3, .blog--style3 .blog__thumb, .blog--style2 .blog__thumb, .blog--style1 .blog__thumb, .course--style4 .course__content-top h4, .course--style3 .course__content-top h4, .course--style1 .course__content-top h4, .about--style4 .about__content .about-list li, .about--style1 .about__content-inner .about-list li, .categories--style2 .categories__item-inner img, .categories--style2 .categories__item-inner {
+.coursedetails--style2 .coursedetails__header h3,
+.blog--style3 .blog__thumb,
+.blog--style2 .blog__thumb,
+.blog--style1 .blog__thumb,
+.course--style4 .course__content-top h4,
+.course--style3 .course__content-top h4,
+.course--style1 .course__content-top h4,
+.about--style4 .about__content .about-list li,
+.about--style1 .about__content-inner .about-list li,
+.categories--style2 .categories__item-inner img,
+.categories--style2 .categories__item-inner {
   margin-block-end: 15px;
 }
 
@@ -209,15 +666,48 @@ ol {
 }
 
 /*-------<< margin properties >>-------*/
-.sidebar__comment .body ul li .comment .content .reply--mobile, .community--style2 .community__content-inner h2, .team--style2 .team__item-author, .categories--style1 .categories__item-content a, .account__social {
+.sidebar__comment .body ul li .comment .content .reply--mobile,
+.community--style2 .community__content-inner h2,
+.team--style2 .team__item-author,
+.categories--style1 .categories__item-content a,
+.account__social {
   margin-block-start: 20px;
 }
 
-.checkout__title, .accordion__body .overview-list li:not(:last-child), .coursedetails--style1 .coursedetails__overview .overview-list li:not(:last-child), .coursedetails--style1 .coursedetails__info ul li button, .coursedetails--style1 .coursedetails__header p, .coursedetails--style1 .coursedetails__header h3, .counter--style1 .counter__item-thumb, .testimonial--style2 .testimonial__item-content span, .community--style2 .community__content-inner h2, .blog--details .blog__content h2, .blog--style2 .blog__large-content h5, .team--style1 .team__header h2, .course--style4 .course__content-top, .course--style3 .course__content h6, .course--style3 .course__content-top, .course--style1 .course__content-top, .about--style4 .about__content h2, .footer__post .footer__wrapper ul li, .footer__about-item:not(:last-child), .account__header h4, .banner__content--style3 h1, .banner__content--style2 h1, .banner__content-star, .section-header h2, .subtitle, .form input {
+.checkout__title,
+.accordion__body .overview-list li:not(:last-child),
+.coursedetails--style1
+  .coursedetails__overview
+  .overview-list
+  li:not(:last-child),
+.coursedetails--style1 .coursedetails__info ul li button,
+.coursedetails--style1 .coursedetails__header p,
+.coursedetails--style1 .coursedetails__header h3,
+.counter--style1 .counter__item-thumb,
+.testimonial--style2 .testimonial__item-content span,
+.community--style2 .community__content-inner h2,
+.blog--details .blog__content h2,
+.blog--style2 .blog__large-content h5,
+.team--style1 .team__header h2,
+.course--style4 .course__content-top,
+.course--style3 .course__content h6,
+.course--style3 .course__content-top,
+.course--style1 .course__content-top,
+.about--style4 .about__content h2,
+.footer__post .footer__wrapper ul li,
+.footer__about-item:not(:last-child),
+.account__header h4,
+.banner__content--style3 h1,
+.banner__content--style2 h1,
+.banner__content-star,
+.section-header h2,
+.subtitle,
+.form input {
   margin-block-end: 20px;
 }
 
-.accordion__button .lesson .lesson-number, .coursedetails--style1 .coursedetails__info ul li:not(:last-child) {
+.accordion__button .lesson .lesson-number,
+.coursedetails--style1 .coursedetails__info ul li:not(:last-child) {
   margin-inline-end: 20px;
 }
 
@@ -226,20 +716,56 @@ ol {
 }
 
 /*-------<< margin properties >>-------*/
-.community--style2 .community__content-inner a.trk-btn, .blog__two .blog__meta, .team--details .team__content .info, .footer__end-links, .footer__end-copyright, .footer__links-content {
+.community--style2 .community__content-inner a.trk-btn,
+.blog__two .blog__meta,
+.team--details .team__content .info,
+.footer__end-links,
+.footer__end-copyright,
+.footer__links-content {
   margin-block-start: 25px;
 }
 
-.sidebar__comment-item, .sidebar__categorie .body ul li, .cart__bottom-shipingbox .calculate-shiping h4, .coursedetails--style1 .coursedetails__overview h5, .testimonial--style3 .testimonial__writer, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style1 .blog__content h6, .about--style2 .about__content-item, .categories--style4 .categories__item-content p, .categories--style4 .categories__item-inner img, .categories--style3 .categories__item-thumb, .footer__links-tittle h6, .footer__about-logo img, .banner__content--style3 p, .banner__content--style2 .moto {
+.sidebar__comment-item,
+.sidebar__categorie .body ul li,
+.cart__bottom-shipingbox .calculate-shiping h4,
+.coursedetails--style1 .coursedetails__overview h5,
+.testimonial--style3 .testimonial__writer,
+.blog--style3 .blog__content h6,
+.blog--style2 .blog__content h5,
+.blog--style1 .blog__content h6,
+.about--style2 .about__content-item,
+.categories--style4 .categories__item-content p,
+.categories--style4 .categories__item-inner img,
+.categories--style3 .categories__item-thumb,
+.footer__links-tittle h6,
+.footer__about-logo img,
+.banner__content--style3 p,
+.banner__content--style2 .moto {
   margin-block-end: 25px;
 }
 
 /*-------<< margin properties >>-------*/
-.account__switch, .section-header a {
+.account__switch,
+.section-header a {
   margin-block-start: 30px;
 }
 
-.sidebar__recentpost .body ul li, .cart__bottom-shipingbox .cart-overview h4, .cart__bottom-coupon, .coursedetails--style2 .coursedetails__header, .coursedetails--style1 .coursedetails__offer-time p, .blog--style1 .blog__view, .course--style1 .course__view, .about--style4 .about__content .about-list, .about--style4 .about__content p, .about--style3 .about__details-item:nth-child(3), .about--style3 .about__details-item:nth-child(1), .about--style1 .about__content-inner .about-list, .about--style1 .about__content-inner p, .footer__end-links, .footer__end-copyright, .contact__form p {
+.sidebar__recentpost .body ul li,
+.cart__bottom-shipingbox .cart-overview h4,
+.cart__bottom-coupon,
+.coursedetails--style2 .coursedetails__header,
+.coursedetails--style1 .coursedetails__offer-time p,
+.blog--style1 .blog__view,
+.course--style1 .course__view,
+.about--style4 .about__content .about-list,
+.about--style4 .about__content p,
+.about--style3 .about__details-item:nth-child(3),
+.about--style3 .about__details-item:nth-child(1),
+.about--style1 .about__content-inner .about-list,
+.about--style1 .about__content-inner p,
+.footer__end-links,
+.footer__end-copyright,
+.contact__form p {
   margin-block-end: 30px;
 }
 
@@ -252,27 +778,49 @@ ol {
 }
 
 /*-------<< margin properties >>-------*/
-.newsletter__content-inner a, .sidebar__commentForm, .coursedetails--style1 .coursedetails__overview h5, .account__form-passcheck {
+.newsletter__content-inner a,
+.sidebar__commentForm,
+.coursedetails--style1 .coursedetails__overview h5,
+.account__form-passcheck {
   margin-block-start: 35px;
 }
 
-.account__form-passcheck, .banner__content--style1 h1 {
+.account__form-passcheck,
+.banner__content--style1 h1 {
   margin-block-end: 35px;
 }
 
 /*-------<< margin properties >>-------*/
-.checkout__subtitle p, .coursedetails--style1 .coursedetails__coursereviews, .testimonial--style2 .testimonial__footer, .testimonial--style1 .testimonial__item-author, .about--style3 .about__content a, .about--style2 .about__content a {
+.checkout__subtitle p,
+.coursedetails--style1 .coursedetails__coursereviews,
+.testimonial--style2 .testimonial__footer,
+.testimonial--style1 .testimonial__item-author,
+.about--style3 .about__content a,
+.about--style2 .about__content a {
   margin-block-start: 40px;
 }
 
-.sidebar .head h3, .coursedetails--style1 .coursedetails__overview > p, .testimonial--style1 .testimonial__item-content span i,
-.testimonial--style1 .testimonial__item-content span svg, .blog--style2 .blog__header, .blog--style1 .blog__header, .team--style1 .team__header p, .about--style3 .about__content .section-header, .about--style2 .about__content .section-header, .categories--style3 .categories__header .style3, .contact__item:not(:last-child), .section-header, .form textarea {
+.sidebar .head h3,
+.coursedetails--style1 .coursedetails__overview > p,
+.testimonial--style1 .testimonial__item-content span i,
+.testimonial--style1 .testimonial__item-content span svg,
+.blog--style2 .blog__header,
+.blog--style1 .blog__header,
+.team--style1 .team__header p,
+.about--style3 .about__content .section-header,
+.about--style2 .about__content .section-header,
+.categories--style3 .categories__header .style3,
+.contact__item:not(:last-child),
+.section-header,
+.form textarea {
   margin-block-end: 40px;
 }
 
 /*-------<< margin properties >>-------*/
 /*-------<< margin properties >>-------*/
-.coursedetails--style1 .coursedetails__info .nav, .blog--style2 .blog__author, .banner-image__item-inner:not(.banner-image__item-inner--style2) img {
+.coursedetails--style1 .coursedetails__info .nav,
+.blog--style2 .blog__author,
+.banner-image__item-inner:not(.banner-image__item-inner--style2) img {
   margin-block-start: 50px;
 }
 
@@ -287,11 +835,16 @@ ol {
 }
 
 /*-------<< margin properties >>-------*/
-.course--style3 .course__wrapper .tab-content, .course--style1 .course__wrapper .tab-content, .slider__pagination-3, .slider__pagination-2, .slider__pagination-1 {
+.course--style3 .course__wrapper .tab-content,
+.course--style1 .course__wrapper .tab-content,
+.slider__pagination-3,
+.slider__pagination-2,
+.slider__pagination-1 {
   margin-block-start: 65px;
 }
 
-.blog--details .blog__content, .contact__header {
+.blog--details .blog__content,
+.contact__header {
   margin-block-end: 65px;
 }
 
@@ -311,25 +864,33 @@ ol {
   padding-block-end: 0;
 }
 
-.social, ul,
+.social,
+ul,
 ol {
   padding-inline-start: 0;
 }
 
-.order__details .table tfoot tr th, .order__details .table tbody th, .order__details .table tr td, .order__details .table thead th {
+.order__details .table tfoot tr th,
+.order__details .table tbody th,
+.order__details .table tr td,
+.order__details .table thead th {
   padding-inline: 0;
 }
 
-.testimonial--style1 .testimonial__author, .banner__video-inner > i,
+.testimonial--style1 .testimonial__author,
+.banner__video-inner > i,
 .banner__video-inner svg {
   padding: 5px;
 }
 
-.course--style3 .course__price > p, .course--style2 .course__content-price h6 {
+.course--style3 .course__price > p,
+.course--style2 .course__content-price h6 {
   padding-block: 5px;
 }
 
-.course--style3 .course__wrapper .nav, .course--style1 .course__topbar-right .nav, .account__content {
+.course--style3 .course__wrapper .nav,
+.course--style1 .course__topbar-right .nav,
+.account__content {
   padding: 10px;
 }
 
@@ -345,19 +906,31 @@ ol {
   padding-inline-start: 10px;
 }
 
-.sidebar__comment .body ul li .comment .content .reply a, .sidebar__tags .body ul li a, .cart__bottom-shipingbox .cart-overview ul li, .blog--details .blog__tag .tags li a {
+.sidebar__comment .body ul li .comment .content .reply a,
+.sidebar__tags .body ul li a,
+.cart__bottom-shipingbox .cart-overview ul li,
+.blog--details .blog__tag .tags li a {
   padding-block: 10px;
 }
 
-.course--style3 .course__price > p, .categories--style2 .categories__item-inner {
+.course--style3 .course__price > p,
+.categories--style2 .categories__item-inner {
   padding-inline: 10px;
 }
 
-.newsletter__content-inner--style4 .form .btn, .sidebar__search form input, .order__option-item, .testimonial--style3 .testimonial__storyteller, .blog--style2 .blog__large-content, .course--style1 .course__topbar-left .form-select.categories-filter, .course__search form input {
+.newsletter__content-inner--style4 .form .btn,
+.sidebar__search form input,
+.order__option-item,
+.testimonial--style3 .testimonial__storyteller,
+.blog--style2 .blog__large-content,
+.course--style1 .course__topbar-left .form-select.categories-filter,
+.course__search form input {
   padding: 15px;
 }
 
-.coursedetails--style2 .coursedetails__info-item, .coursedetails--style1 .coursedetails__footer, .blog--details .blog__tag .tags {
+.coursedetails--style2 .coursedetails__info-item,
+.coursedetails--style1 .coursedetails__footer,
+.blog--details .blog__tag .tags {
   padding-block-start: 15px;
 }
 
@@ -369,15 +942,23 @@ ol {
   padding-inline-start: 15px;
 }
 
-.team--style1 .team__item-content--style2, .trk-btn--apply {
+.team--style1 .team__item-content--style2,
+.trk-btn--apply {
   padding-block: 15px;
 }
 
-.newsletter__content-inner--style4 h2, .sidebar__tags .body ul li a, .blog--details .blog__tag .tags li a, .course--style2 .course__content-price h6 {
+.newsletter__content-inner--style4 h2,
+.sidebar__tags .body ul li a,
+.blog--details .blog__tag .tags li a,
+.course--style2 .course__content-price h6 {
   padding-inline: 15px;
 }
 
-.cart__top table tbody tr td, .course--style4 .course__content, .course--style3 .course__content, .course--style1 .course__content, .community__reviews {
+.cart__top table tbody tr td,
+.course--style4 .course__content,
+.course--style3 .course__content,
+.course--style1 .course__content,
+.community__reviews {
   padding: 20px;
 }
 
@@ -385,7 +966,8 @@ ol {
   padding-block-start: 20px;
 }
 
-.footer__post .footer__wrapper ul li, .banner-image {
+.footer__post .footer__wrapper ul li,
+.banner-image {
   padding-block-end: 20px;
 }
 
@@ -393,31 +975,61 @@ ol {
   padding-inline-end: 20px;
 }
 
-.newsletter__content-inner--style4 .form .input-group, .newsletter__content-inner--style1 h2, .sidebar__comment .body ul li .comment .content .reply a, .cta__content-inner .form .input-group, .coursedetails--style2 .coursedetails__info-item, .trk-btn--apply {
+.newsletter__content-inner--style4 .form .input-group,
+.newsletter__content-inner--style1 h2,
+.sidebar__comment .body ul li .comment .content .reply a,
+.cta__content-inner .form .input-group,
+.coursedetails--style2 .coursedetails__info-item,
+.trk-btn--apply {
   padding-inline: 20px;
 }
 
-.studentreview__item-author, .sidebar__comment-item, .sidebar__tags, .sidebar__categorie, .sidebar__recentpost, .order, .checkout__details, .cart__top table thead tr th, .accordion__button, .feature__content, .course--style2 .course__thumb {
+.studentreview__item-author,
+.sidebar__comment-item,
+.sidebar__tags,
+.sidebar__categorie,
+.sidebar__recentpost,
+.order,
+.checkout__details,
+.cart__top table thead tr th,
+.accordion__button,
+.feature__content,
+.course--style2 .course__thumb {
   padding: 25px;
 }
 
-.sidebar__tags .body, .sidebar__categorie .body, .sidebar__recentpost .body, .coursedetails--style1 .coursedetails__offer, .blog--style3 .blog__content-bottom--border, .blog--style1 .blog__content-bottom--border {
+.sidebar__tags .body,
+.sidebar__categorie .body,
+.sidebar__recentpost .body,
+.coursedetails--style1 .coursedetails__offer,
+.blog--style3 .blog__content-bottom--border,
+.blog--style1 .blog__content-bottom--border {
   padding-block-start: 25px;
 }
 
-.coursedetails--style1 .coursedetails__footer, .blog--details .blog__tag .social-link-list {
+.coursedetails--style1 .coursedetails__footer,
+.blog--details .blog__tag .social-link-list {
   padding-block-end: 25px;
 }
 
-.blog--details .blog__meta, .categories--style2 .categories__item-inner, .footer__lower-copyright {
+.blog--details .blog__meta,
+.categories--style2 .categories__item-inner,
+.footer__lower-copyright {
   padding-block: 25px;
 }
 
-.sidebar__search, .coursedetails--style1 .coursedetails__footer, .coursedetails--style1 .coursedetails__offer, .course--style2 .course__content, .categories--style4 .categories__item-inner {
+.sidebar__search,
+.coursedetails--style1 .coursedetails__footer,
+.coursedetails--style1 .coursedetails__offer,
+.course--style2 .course__content,
+.categories--style4 .categories__item-inner {
   padding-inline: 25px;
 }
 
-.cart__bottom, .accordion__body, .categories--style1 .categories__thumb, .contact__form {
+.cart__bottom,
+.accordion__body,
+.categories--style1 .categories__thumb,
+.contact__form {
   padding: 30px;
 }
 
@@ -429,7 +1041,8 @@ ol {
   padding-block: 30px;
 }
 
-.testimonial--style2 .testimonial__item-inner, .community--style2 .community__content {
+.testimonial--style2 .testimonial__item-inner,
+.community--style2 .community__content {
   padding-inline: 30px;
 }
 
@@ -441,7 +1054,8 @@ ol {
   padding-block-start: 40px;
 }
 
-.cta__content-inner h2, .community--style2 .community__content {
+.cta__content-inner h2,
+.community--style2 .community__content {
   padding-block-end: 40px;
 }
 
@@ -449,7 +1063,9 @@ ol {
   padding-block: 40px;
 }
 
-.newsletter__content-inner, .counter--style2 .counter__wrapper, .counter--style1 .counter__wrapper {
+.newsletter__content-inner,
+.counter--style2 .counter__wrapper,
+.counter--style1 .counter__wrapper {
   padding-block: 45px;
 }
 
@@ -479,34 +1095,206 @@ ol {
 
 /*=========<<Margin property extends end>>=========*/
 /*=========<<overflow property extends start>>=========*/
-.sidebar__categorie .body ul li a, .sidebar__recentpost .body ul li .thumb, .sidebar, .accordion__item, .coursedetails--style1 .coursedetails__overview-helpline .thumb, .coursedetails--style1 .coursedetails__info ul li button, .feature__thumb, .counter, .partner, .gallery, .testimonial--style2 .testimonial, .testimonial, .community, .blog--details .blog__thumb, .blog--style3 .blog__thumb, .blog--style3 .blog__item, .blog--style2 .blog__thumb, .blog--style2 .blog__item, .blog--style2 .blog__large-thumb, .blog--style2 .blog__wrapper .brand2-bg-1, .blog--style1 .blog__thumb, .blog--style1 .blog__item, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style1 .team__item-thumb, .team--style1 .team__item-inner, .team, .story, .course--style4 .course__thumb, .course--style4 .course__item, .course--style3 .course__thumb, .course--style3 .course__item, .course--style2 .course__thumb-inner, .course--style1 .course__thumb, .course--style1 .course__item, .course, .about--style5 .about__thumb-image, .about, .categories--style3 .categories__item-thumb, .categories--style1 .categories__item-inner, .categories, .tab-btn, .trk-btn, .footer__post .footer__wrapper ul li .thumb a img, .footer__post .footer__wrapper ul li .thumb, .footer, .account, .banner .reviews__content, .banner--style3, .banner--style2, .banner.brand-4 .banner-image, .banner.brand-1 .banner-image, .studentreview__thumb-top p, .order__details .table tr td .o-info a, .order__details .table tr td .o-info .c-reviews p, .cart__top table tbody tr td.course-item .c-content .c-reviews p, .cart__top table tbody tr td.course-item .c-content a, .course--style2 .course__content-details h6 a, .footer__post .footer__wrapper ul li .content p a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style2 .blog__header h2, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4, .sidebar__recentpost .body ul li .content p a {
+.sidebar__categorie .body ul li a,
+.sidebar__recentpost .body ul li .thumb,
+.sidebar,
+.accordion__item,
+.coursedetails--style1 .coursedetails__overview-helpline .thumb,
+.coursedetails--style1 .coursedetails__info ul li button,
+.feature__thumb,
+.counter,
+.partner,
+.gallery,
+.testimonial--style2 .testimonial,
+.testimonial,
+.community,
+.blog--details .blog__thumb,
+.blog--style3 .blog__thumb,
+.blog--style3 .blog__item,
+.blog--style2 .blog__thumb,
+.blog--style2 .blog__item,
+.blog--style2 .blog__large-thumb,
+.blog--style2 .blog__wrapper .brand2-bg-1,
+.blog--style1 .blog__thumb,
+.blog--style1 .blog__item,
+.blog,
+.team--details .team__thumb,
+.team--style2 .team__item-thumb,
+.team--style1 .team__item-thumb,
+.team--style1 .team__item-inner,
+.team,
+.story,
+.course--style4 .course__thumb,
+.course--style4 .course__item,
+.course--style3 .course__thumb,
+.course--style3 .course__item,
+.course--style2 .course__thumb-inner,
+.course--style1 .course__thumb,
+.course--style1 .course__item,
+.course,
+.about--style5 .about__thumb-image,
+.about,
+.categories--style3 .categories__item-thumb,
+.categories--style1 .categories__item-inner,
+.categories,
+.tab-btn,
+.trk-btn,
+.footer__post .footer__wrapper ul li .thumb a img,
+.footer__post .footer__wrapper ul li .thumb,
+.footer,
+.account,
+.banner .reviews__content,
+.banner--style3,
+.banner--style2,
+.banner.brand-4 .banner-image,
+.banner.brand-1 .banner-image,
+.studentreview__thumb-top p,
+.order__details .table tr td .o-info a,
+.order__details .table tr td .o-info .c-reviews p,
+.cart__top table tbody tr td.course-item .c-content .c-reviews p,
+.cart__top table tbody tr td.course-item .c-content a,
+.course--style2 .course__content-details h6 a,
+.footer__post .footer__wrapper ul li .content p a,
+.blog--style3 .blog__content h6,
+.blog--style2 .blog__content h5,
+.blog--style2 .blog__large-content h5,
+.blog--style2 .blog__header h2,
+.blog--style1 .blog__content h6,
+.course--style4 .course__content-top h4,
+.course--style3 .course__content h6,
+.course--style3 .course__content-top h4,
+.course--style1 .course__content h6,
+.course--style1 .course__content-top h4,
+.sidebar__recentpost .body ul li .content p a {
   overflow: hidden;
 }
 
-.sidebar__categorie .body ul li a, .sidebar__recentpost .body ul li .thumb, .sidebar, .accordion__item, .coursedetails--style1 .coursedetails__overview-helpline .thumb, .coursedetails--style1 .coursedetails__info ul li button, .feature__thumb, .counter, .partner, .gallery, .testimonial--style2 .testimonial, .testimonial, .community, .blog--details .blog__thumb, .blog--style3 .blog__thumb, .blog--style3 .blog__item, .blog--style2 .blog__thumb, .blog--style2 .blog__item, .blog--style2 .blog__large-thumb, .blog--style2 .blog__wrapper .brand2-bg-1, .blog--style1 .blog__thumb, .blog--style1 .blog__item, .blog, .team--details .team__thumb, .team--style2 .team__item-thumb, .team--style1 .team__item-thumb, .team--style1 .team__item-inner, .team, .story, .course--style4 .course__thumb, .course--style4 .course__item, .course--style3 .course__thumb, .course--style3 .course__item, .course--style2 .course__thumb-inner, .course--style1 .course__thumb, .course--style1 .course__item, .course, .about--style5 .about__thumb-image, .about, .categories--style3 .categories__item-thumb, .categories--style1 .categories__item-inner, .categories, .tab-btn, .trk-btn, .footer__post .footer__wrapper ul li .thumb a img, .footer__post .footer__wrapper ul li .thumb, .footer, .account, .banner .reviews__content, .banner--style3, .banner--style2, .banner.brand-4 .banner-image, .banner.brand-1 .banner-image, .studentreview__thumb-top p, .order__details .table tr td .o-info a, .order__details .table tr td .o-info .c-reviews p, .cart__top table tbody tr td.course-item .c-content .c-reviews p, .cart__top table tbody tr td.course-item .c-content a, .course--style2 .course__content-details h6 a, .footer__post .footer__wrapper ul li .content p a, .blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style2 .blog__header h2, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4, .sidebar__recentpost .body ul li .content p a {
+.sidebar__categorie .body ul li a,
+.sidebar__recentpost .body ul li .thumb,
+.sidebar,
+.accordion__item,
+.coursedetails--style1 .coursedetails__overview-helpline .thumb,
+.coursedetails--style1 .coursedetails__info ul li button,
+.feature__thumb,
+.counter,
+.partner,
+.gallery,
+.testimonial--style2 .testimonial,
+.testimonial,
+.community,
+.blog--details .blog__thumb,
+.blog--style3 .blog__thumb,
+.blog--style3 .blog__item,
+.blog--style2 .blog__thumb,
+.blog--style2 .blog__item,
+.blog--style2 .blog__large-thumb,
+.blog--style2 .blog__wrapper .brand2-bg-1,
+.blog--style1 .blog__thumb,
+.blog--style1 .blog__item,
+.blog,
+.team--details .team__thumb,
+.team--style2 .team__item-thumb,
+.team--style1 .team__item-thumb,
+.team--style1 .team__item-inner,
+.team,
+.story,
+.course--style4 .course__thumb,
+.course--style4 .course__item,
+.course--style3 .course__thumb,
+.course--style3 .course__item,
+.course--style2 .course__thumb-inner,
+.course--style1 .course__thumb,
+.course--style1 .course__item,
+.course,
+.about--style5 .about__thumb-image,
+.about,
+.categories--style3 .categories__item-thumb,
+.categories--style1 .categories__item-inner,
+.categories,
+.tab-btn,
+.trk-btn,
+.footer__post .footer__wrapper ul li .thumb a img,
+.footer__post .footer__wrapper ul li .thumb,
+.footer,
+.account,
+.banner .reviews__content,
+.banner--style3,
+.banner--style2,
+.banner.brand-4 .banner-image,
+.banner.brand-1 .banner-image,
+.studentreview__thumb-top p,
+.order__details .table tr td .o-info a,
+.order__details .table tr td .o-info .c-reviews p,
+.cart__top table tbody tr td.course-item .c-content .c-reviews p,
+.cart__top table tbody tr td.course-item .c-content a,
+.course--style2 .course__content-details h6 a,
+.footer__post .footer__wrapper ul li .content p a,
+.blog--style3 .blog__content h6,
+.blog--style2 .blog__content h5,
+.blog--style2 .blog__large-content h5,
+.blog--style2 .blog__header h2,
+.blog--style1 .blog__content h6,
+.course--style4 .course__content-top h4,
+.course--style3 .course__content h6,
+.course--style3 .course__content-top h4,
+.course--style1 .course__content h6,
+.course--style1 .course__content-top h4,
+.sidebar__recentpost .body ul li .content p a {
   overflow: hidden;
 }
 
 /*=========<<overflow property extends end>>=========*/
 /*=========<<Cursor property extends start>>=========*/
-.testimonial--style3 .testimonial__storyteller, .header-bar, .searchbar__close {
+.testimonial--style3 .testimonial__storyteller,
+.header-bar,
+.searchbar__close {
   cursor: pointer;
 }
 
 /*=========<<Cursor property extends end>>=========*/
 /*=========<< Height-Width property extends start>>=========*/
-.sidebar__recentpost .body ul li .thumb img, .cart__bottom-checkoutbox .cart-checkout, .cart__top table, .accordion__button, .coursedetails--style1 .coursedetails__overview-helpline .thumb img, .feature__thumb img, .blog--details .blog__thumb img, .blog--style3 .blog__thumb img, .blog--style2 .blog__thumb img, .blog--style2 .blog__large-thumb img, .blog--style1 .blog__thumb img, .team--details .team__thumb img, .team--style2 .team__item-thumb img, .team--style1 .team__item-thumb img, .course--style4 .course__thumb img, .course--style3 .course__thumb img, .course--style2 .course__thumb-inner img, .course--style1 .course__thumb img, .about--style5 .about__thumb img, .categories--style3 .categories__item-thumb img, .account__social-btn, .account__form .default-btn, .header-bar span, .header-section.header-fixed, .searchbar__wrapper, .searchbar, .form input,
+.sidebar__recentpost .body ul li .thumb img,
+.cart__bottom-checkoutbox .cart-checkout,
+.cart__top table,
+.accordion__button,
+.coursedetails--style1 .coursedetails__overview-helpline .thumb img,
+.feature__thumb img,
+.blog--details .blog__thumb img,
+.blog--style3 .blog__thumb img,
+.blog--style2 .blog__thumb img,
+.blog--style2 .blog__large-thumb img,
+.blog--style1 .blog__thumb img,
+.team--details .team__thumb img,
+.team--style2 .team__item-thumb img,
+.team--style1 .team__item-thumb img,
+.course--style4 .course__thumb img,
+.course--style3 .course__thumb img,
+.course--style2 .course__thumb-inner img,
+.course--style1 .course__thumb img,
+.about--style5 .about__thumb img,
+.categories--style3 .categories__item-thumb img,
+.account__social-btn,
+.account__form .default-btn,
+.header-bar span,
+.header-section.header-fixed,
+.searchbar__wrapper,
+.searchbar,
+.form input,
 .form textarea {
   width: 100%;
 }
 
-.searchbar__wrapper, .searchbar {
+.searchbar__wrapper,
+.searchbar {
   height: 100%;
 }
 
 /*=========<< Height-Width property extends end>>=========*/
 /*=========<< List Style property extends start>>=========*/
-.cart__bottom-shipingbox .cart-overview ul li, .social, .blog--details .blog__tag .tags li, ul,
+.cart__bottom-shipingbox .cart-overview ul li,
+.social,
+.blog--details .blog__tag .tags li,
+ul,
 ol {
   list-style: none;
 }
@@ -520,14 +1308,29 @@ ol {
   text-overflow: ellipsis;
 }
 
-.blog--style3 .blog__content h6, .blog--style2 .blog__content h5, .blog--style2 .blog__large-content h5, .blog--style2 .blog__header h2, .blog--style1 .blog__content h6, .course--style4 .course__content-top h4, .course--style3 .course__content h6, .course--style3 .course__content-top h4, .course--style1 .course__content h6, .course--style1 .course__content-top h4 {
+.blog--style3 .blog__content h6,
+.blog--style2 .blog__content h5,
+.blog--style2 .blog__large-content h5,
+.blog--style2 .blog__header h2,
+.blog--style1 .blog__content h6,
+.course--style4 .course__content-top h4,
+.course--style3 .course__content h6,
+.course--style3 .course__content-top h4,
+.course--style1 .course__content h6,
+.course--style1 .course__content-top h4 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
 
-.studentreview__thumb-top p, .order__details .table tr td .o-info a, .order__details .table tr td .o-info .c-reviews p, .cart__top table tbody tr td.course-item .c-content .c-reviews p, .cart__top table tbody tr td.course-item .c-content a, .course--style2 .course__content-details h6 a, .footer__post .footer__wrapper ul li .content p a {
+.studentreview__thumb-top p,
+.order__details .table tr td .o-info a,
+.order__details .table tr td .o-info .c-reviews p,
+.cart__top table tbody tr td.course-item .c-content .c-reviews p,
+.cart__top table tbody tr td.course-item .c-content a,
+.course--style2 .course__content-details h6 a,
+.footer__post .footer__wrapper ul li .content p a {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -923,9 +1726,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -933,9 +1736,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -944,9 +1747,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -996,8 +1799,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -1007,8 +1810,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -1016,7 +1819,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -1026,7 +1829,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -1179,7 +1982,7 @@ a {
 }
 @media not all and (pointer: coarse) {
   a:hover {
-    color: #081A28;
+    color: #081a28;
   }
 }
 
@@ -1490,72 +2293,97 @@ ol {
   }
 }
 @-webkit-keyframes light {
-  10%, 90% {
+  10%,
+  90% {
     opacity: 0.5;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 0.7;
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     opacity: 0.9;
   }
-  40%, 60% {
+  40%,
+  60% {
     opacity: 1;
   }
 }
 @-moz-keyframes light {
-  10%, 90% {
+  10%,
+  90% {
     opacity: 0.5;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 0.7;
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     opacity: 0.9;
   }
-  40%, 60% {
+  40%,
+  60% {
     opacity: 1;
   }
 }
 @-ms-keyframes light {
-  10%, 90% {
+  10%,
+  90% {
     opacity: 0.5;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 0.7;
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     opacity: 0.9;
   }
-  40%, 60% {
+  40%,
+  60% {
     opacity: 1;
   }
 }
 @-o-keyframes light {
-  10%, 90% {
+  10%,
+  90% {
     opacity: 0.5;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 0.7;
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     opacity: 0.9;
   }
-  40%, 60% {
+  40%,
+  60% {
     opacity: 1;
   }
 }
 @keyframes light {
-  10%, 90% {
+  10%,
+  90% {
     opacity: 0.5;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 0.7;
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     opacity: 0.9;
   }
-  40%, 60% {
+  40%,
+  60% {
     opacity: 1;
   }
 }
@@ -1634,7 +2462,7 @@ ol {
 }
 
 .slider__pagination-2 .swiper-pagination-bullet {
-  background-color: #FED049;
+  background-color: #fed049;
   width: 13px;
   height: 13px;
   border: none;
@@ -1644,7 +2472,7 @@ ol {
   width: 16px;
   height: 16px;
   outline-style: dotted;
-  outline-color: #FED049;
+  outline-color: #fed049;
 }
 
 .slider__pagination-3 .swiper-pagination-bullet {
@@ -1677,24 +2505,24 @@ ol {
   color: #344054;
 }
 .scrollToTop--home1 {
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
 }
 .scrollToTop--home2 {
-  background-color: #FF7350;
+  background-color: #ff7350;
 }
 .scrollToTop--home2 i,
 .scrollToTop--home2 svg {
   color: #fff;
 }
 .scrollToTop--home3 {
-  background-color: #FF7350;
+  background-color: #ff7350;
 }
 .scrollToTop--home3 i,
 .scrollToTop--home3 svg {
   color: #fff;
 }
 .scrollToTop--home4 {
-  background-color: #FED049;
+  background-color: #fed049;
 }
 .scrollToTop:hover {
   -webkit-transform: translateY(-5px);
@@ -1724,7 +2552,7 @@ ol {
 .form textarea.style1 {
   border-radius: 0;
   border: none;
-  background-color: #60468A;
+  background-color: #60468a;
   color: #fff;
 }
 .form input.style1::placeholder,
@@ -1749,7 +2577,7 @@ ol {
 
 .form-control {
   background-color: #fff;
-  border-color: #EAECF0;
+  border-color: #eaecf0;
   padding: 15px 24px;
   border-radius: 8px;
 }
@@ -1767,8 +2595,8 @@ ol {
   box-shadow: none;
 }
 .form-check-input:checked {
-  background-color: #081A28;
-  border-color: #081A28;
+  background-color: #081a28;
+  border-color: #081a28;
 }
 .form-check-label {
   color: #475467 !important;
@@ -1792,7 +2620,7 @@ ol {
   justify-content: center;
   background: #fff;
   box-shadow: 0 3px 4px rgba(10, 31, 68, 0.1);
-  color: #081A28;
+  color: #081a28;
   font-weight: 700;
   z-index: 1;
   -webkit-transition: all 0.3s linear;
@@ -1803,12 +2631,13 @@ ol {
   border-radius: 8px;
   border: 1px solid rgba(8, 26, 40, 0.2);
 }
-.paginations ul li a.active, .paginations ul li a:hover {
+.paginations ul li a.active,
+.paginations ul li a:hover {
   color: #fff;
-  background: #081A28;
+  background: #081a28;
 }
 .paginations ul li a.dot {
-  color: #081A28;
+  color: #081a28;
   font-weight: 700;
 }
 .paginations ul li a.dot:hover {
@@ -1862,7 +2691,7 @@ ol {
   border: none;
   outline: none;
   border-radius: 8px;
-  background-color: #081A28;
+  background-color: #081a28;
   color: #fff;
 }
 .course__search form button i,
@@ -1871,7 +2700,7 @@ ol {
 }
 
 .gradient-text--brand1 {
-  background: -webkit-linear-gradient(#081A28, #B1FDAF);
+  background: -webkit-linear-gradient(#081a28, #b1fdaf);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
@@ -1885,7 +2714,7 @@ ol {
 }
 
 .gradient-text--brand2 {
-  background: -webkit-linear-gradient(#125875, #FF7350);
+  background: -webkit-linear-gradient(#125875, #ff7350);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
@@ -1899,7 +2728,7 @@ ol {
 }
 
 .gradient-text--brand3 {
-  background: -webkit-linear-gradient(#463266, #FF7350);
+  background: -webkit-linear-gradient(#463266, #ff7350);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
@@ -1913,7 +2742,7 @@ ol {
 }
 
 .gradient-text--brand4 {
-  background: -webkit-linear-gradient(#248D88, #FED049);
+  background: -webkit-linear-gradient(#248d88, #fed049);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
@@ -1927,7 +2756,7 @@ ol {
 }
 
 .brand-1 {
-  background-color: #081A28;
+  background-color: #081a28;
 }
 
 .brand1-bg-1 {
@@ -1935,7 +2764,7 @@ ol {
 }
 
 .brand1-bg-2 {
-  background-color: #7044B0;
+  background-color: #7044b0;
 }
 
 .brand-2 {
@@ -1943,7 +2772,7 @@ ol {
 }
 
 .brand2-bg-1 {
-  background-color: #D6F2FE;
+  background-color: #d6f2fe;
 }
 
 .brand2-bg-3 {
@@ -1951,7 +2780,7 @@ ol {
 }
 
 .brand2-bg-2 {
-  background-color: #1F6F90;
+  background-color: #1f6f90;
 }
 
 .brand2-bg-4 {
@@ -1963,15 +2792,15 @@ ol {
 }
 
 .brand3-bg-1 {
-  background-color: #FFF7F5;
+  background-color: #fff7f5;
 }
 
 .brand-4 {
-  background-color: #248D88;
+  background-color: #248d88;
 }
 
 .brand4-bg-1 {
-  background-color: #FED049;
+  background-color: #fed049;
 }
 
 .padding-top {
@@ -2057,7 +2886,7 @@ ol {
   }
 }
 .style2-h2--defult {
-  color: #248D88;
+  color: #248d88;
 }
 .style2-h2--max20 {
   max-inline-size: 13ch;
@@ -2085,13 +2914,14 @@ ol {
   left: 0;
   box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
   z-index: 999;
-  background-color: #081A28;
+  background-color: #081a28;
 }
-.header-section.header-fixed.header-section.home2, .header-section.header-fixed.header-section.home3 {
+.header-section.header-fixed.header-section.home2,
+.header-section.header-fixed.header-section.home3 {
   background-color: #fff;
 }
 .header-section.header-fixed.header-section.home4 {
-  background-color: #248D88;
+  background-color: #248d88;
 }
 
 .header-wrapper {
@@ -2218,12 +3048,16 @@ ol {
     border-radius: 0.3rem;
     transition: all 0.3s linear;
   }
-  .menu li .submenu li a:hover, .menu li .submenu li a.active {
+  .menu li .submenu li a:hover,
+  .menu li .submenu li a.active {
     background: #fff;
     padding-left: 22px;
     color: #000;
   }
-  .menu li .submenu li a:hover:after, .menu li .submenu li a:hover:before, .menu li .submenu li a.active:after, .menu li .submenu li a.active:before {
+  .menu li .submenu li a:hover:after,
+  .menu li .submenu li a:hover:before,
+  .menu li .submenu li a.active:after,
+  .menu li .submenu li a.active:before {
     background: #fff;
   }
   .menu li .submenu li:last-child a {
@@ -2317,7 +3151,7 @@ ol {
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
   border-radius: 5px;
   height: 3px;
   left: 0;
@@ -2602,13 +3436,13 @@ ol {
   font-family: "Poppins", sans-serif;
 }
 .subtitle--style2 {
-  color: #FF7350;
+  color: #ff7350;
 }
 .subtitle--style3 p {
   font-size: 1.125rem;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  color: #FF7350;
+  color: #ff7350;
 }
 .subtitle--style4 p {
   font-size: 1.125rem;
@@ -2911,12 +3745,14 @@ ol {
   color: #fff;
   gap: 15px;
 }
-.banner__content--style1 .play-btn i, .banner__content--style1 .play-btn svg {
+.banner__content--style1 .play-btn i,
+.banner__content--style1 .play-btn svg {
   font-size: calc(1.425rem + 1.8vw);
-  color: #B1FDAF;
+  color: #b1fdaf;
 }
 @media (min-width: 1400px) {
-  .banner__content--style1 .play-btn i, .banner__content--style1 .play-btn svg {
+  .banner__content--style1 .play-btn i,
+  .banner__content--style1 .play-btn svg {
     font-size: 3rem;
   }
 }
@@ -3014,7 +3850,7 @@ ol {
 .banner__video-inner svg {
   width: 70px;
   height: 70px;
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
   border-radius: 50%;
   animation: rotate 6s linear infinite normal;
 }
@@ -3047,11 +3883,13 @@ ol {
   top: 50%;
   left: 50%;
 }
-.banner__video-inner span i, .banner__video-inner span svg {
+.banner__video-inner span i,
+.banner__video-inner span svg {
   color: #000;
   font-size: 1.25rem;
 }
-.banner__video:hover .banner__video-inner > i, .banner__video:hover .banner__video-inner svg {
+.banner__video:hover .banner__video-inner > i,
+.banner__video:hover .banner__video-inner svg {
   animation-play-state: paused;
 }
 .banner__shape--style1 .banner__shape-item:nth-child(1) {
@@ -3059,12 +3897,18 @@ ol {
   top: 20%;
   left: 5%;
 }
-.banner__shape--style1 .banner__shape-item:nth-child(1).banner__shape-item--animation {
-  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style1
+  .banner__shape-item:nth-child(1).banner__shape-item--animation {
+  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 @media (min-width: 768px) {
   .banner__shape--style1 .banner__shape-item:nth-child(1) {
@@ -3096,11 +3940,16 @@ ol {
   bottom: 10%;
   z-index: 1;
 }
-.banner__shape--style1 .banner__shape-item:nth-child(2).banner__shpae-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style1
+  .banner__shape-item:nth-child(2).banner__shpae-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
@@ -3142,11 +3991,16 @@ ol {
   top: 15%;
   right: 5%;
 }
-.banner__shape--style1 .banner__shape-item:nth-child(3).banner__shpae-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style1
+  .banner__shape-item:nth-child(3).banner__shpae-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 768px) {
@@ -3179,12 +4033,18 @@ ol {
   z-index: 1;
   bottom: 5%;
 }
-.banner__shape--style1 .banner__shape-item:nth-child(4).banner__shpae-item--animation {
-  -webkit-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style1
+  .banner__shape-item:nth-child(4).banner__shpae-item--animation {
+  -webkit-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 @media (min-width: 576px) {
   .banner__shape--style1 .banner__shape-item:nth-child(4) {
@@ -3220,9 +4080,12 @@ ol {
   right: 28%;
   z-index: 1;
 }
-.banner__shape--style1 .banner__shape-item:nth-child(5).banner__shpae-item--animation {
-  -webkit-animation: zoom 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: zoom 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style1
+  .banner__shape-item:nth-child(5).banner__shpae-item--animation {
+  -webkit-animation: zoom 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: zoom 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   -ms-animation: zoom 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
   -o-animation: zoom 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
   animation: zoom 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
@@ -3263,10 +4126,14 @@ ol {
   top: 20%;
   left: 5%;
 }
-.banner__shape--style2 .banner__shape-item:nth-child(1).banner__shape-item--animation {
-  -webkit-animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style2
+  .banner__shape-item:nth-child(1).banner__shape-item--animation {
+  -webkit-animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   -o-animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
   animation: light 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
@@ -3300,11 +4167,16 @@ ol {
   bottom: 10%;
   z-index: 1;
 }
-.banner__shape--style2 .banner__shape-item:nth-child(2).banner__shpae-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style2
+  .banner__shape-item:nth-child(2).banner__shpae-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
@@ -3346,11 +4218,16 @@ ol {
   top: 15%;
   right: 5%;
 }
-.banner__shape--style2 .banner__shape-item:nth-child(3).banner__shpae-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style2
+  .banner__shape-item:nth-child(3).banner__shpae-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 768px) {
@@ -3382,11 +4259,16 @@ ol {
   right: 7%;
   z-index: 1;
 }
-.banner__shape--style2 .banner__shape-item:nth-child(4).banner__shpae-item--animation {
-  -webkit-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__shape--style2
+  .banner__shape-item:nth-child(4).banner__shpae-item--animation {
+  -webkit-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: rotate 9s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
@@ -3423,12 +4305,18 @@ ol {
   top: 28%;
   left: 44%;
 }
-.banner__icon--style1 .banner__icon-item:nth-child(1).banner__icon-item--animation {
-  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__icon--style1
+  .banner__icon-item:nth-child(1).banner__icon-item--animation {
+  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 @media (min-width: 1200px) {
   .banner__icon--style1 .banner__icon-item:nth-child(1) {
@@ -3441,11 +4329,16 @@ ol {
   right: 33%;
   top: 28%;
 }
-.banner__icon--style1 .banner__icon-item:nth-child(2).banner__icon-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__icon--style1
+  .banner__icon-item:nth-child(2).banner__icon-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 768px) {
@@ -3492,12 +4385,18 @@ ol {
   display: none;
   width: 100px;
 }
-.banner__icon--style2 .banner__icon-item:nth-child(1).banner__icon-item--animation {
-  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__icon--style2
+  .banner__icon-item:nth-child(1).banner__icon-item--animation {
+  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 @media (min-width: 992px) {
   .banner__icon--style2 .banner__icon-item:nth-child(1) {
@@ -3525,11 +4424,16 @@ ol {
   display: none;
   width: 100px;
 }
-.banner__icon--style2 .banner__icon-item:nth-child(2).banner__icon-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__icon--style2
+  .banner__icon-item:nth-child(2).banner__icon-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
@@ -3570,12 +4474,18 @@ ol {
   display: none;
   width: 100px;
 }
-.banner__icon--style2 .banner__icon-item:nth-child(3).banner__icon-item--animation {
-  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.banner__icon--style2
+  .banner__icon-item:nth-child(3).banner__icon-item--animation {
+  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 @media (min-width: 576px) {
   .banner__icon--style2 .banner__icon-item:nth-child(3) {
@@ -3628,7 +4538,7 @@ ol {
   width: 32px;
   height: 32px;
   border-radius: 50px;
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
   position: relative;
 }
 .banner .reviews__thumb ul li .count .purecounter {
@@ -3662,7 +4572,7 @@ ol {
 .contact__item-thumb i,
 .contact__item-thumb svg {
   font-size: calc(1.35rem + 1.0285714286vw);
-  color: #081A28;
+  color: #081a28;
 }
 @media (min-width: 1400px) {
   .contact__item-thumb i,
@@ -3739,10 +4649,10 @@ ol {
   top: 90%;
 }
 .account__form .input-group .valid-tooltip {
-  color: #12B76A;
+  color: #12b76a;
 }
 .account__form .input-group .invalid-tooltip {
-  color: #F04438;
+  color: #f04438;
 }
 .account__form .form-control {
   border: none;
@@ -3781,7 +4691,7 @@ ol {
 }
 .account__form-forgotpass a {
   font-size: 1.125rem;
-  color: #366CD5;
+  color: #366cd5;
 }
 .account__social-btn {
   -webkit-transition: all 0.3s linear;
@@ -3809,7 +4719,7 @@ ol {
 }
 .account__switch a {
   font-size: 1.125rem;
-  color: #366CD5;
+  color: #366cd5;
 }
 
 .footer {
@@ -3874,10 +4784,10 @@ ol {
 }
 .footer__links-content .form-control:focus {
   box-shadow: none;
-  border-color: #B1FDAF;
+  border-color: #b1fdaf;
 }
 .footer__links button {
-  background: #B1FDAF;
+  background: #b1fdaf;
   color: #fff;
   padding: 0.8rem 1.25rem;
   border: none;
@@ -3967,7 +4877,7 @@ ol {
   color: #fff;
 }
 .footer__post .footer__wrapper ul li .content .date {
-  color: #C7A7F8;
+  color: #c7a7f8;
 }
 .footer__end {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -3999,7 +4909,7 @@ ol {
   color: #bfbfbf;
 }
 .footer__lower {
-  background-color: #60468A;
+  background-color: #60468a;
   color: #bfbfbf;
 }
 .footer.brand-2 p,
@@ -4014,7 +4924,7 @@ ol {
 .trk-btn {
   font-size: 1rem;
   border: transparent;
-  color: #081A28;
+  color: #081a28;
   font-weight: 500;
   font-family: "Inter", sans-serif;
   padding: 1.125rem 1.85rem;
@@ -4053,24 +4963,24 @@ ol {
   }
 }
 .trk-btn--primary1 {
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
 }
 .trk-btn--primary2 {
-  background-color: #FF7350;
+  background-color: #ff7350;
   color: #fff;
 }
 .trk-btn--primary3 {
-  background-color: #FF7350;
+  background-color: #ff7350;
 }
 .trk-btn--primary4 {
-  background-color: #FED049;
+  background-color: #fed049;
 }
 .trk-btn--secondary1 {
-  background-color: #081A28;
+  background-color: #081a28;
   color: #fff;
 }
 .trk-btn--apply {
-  background-color: #081A28;
+  background-color: #081a28;
   color: #fff;
 }
 .trk-btn--secondary2 {
@@ -4082,7 +4992,7 @@ ol {
   color: #fff;
 }
 .trk-btn--secondary4 {
-  background-color: #248D88;
+  background-color: #248d88;
   color: #fff;
 }
 .trk-btn--search {
@@ -4111,15 +5021,17 @@ ol {
   color: #fff;
 }
 .trk-btn:hover.trk-btn--primary1 {
-  color: #081A28;
+  color: #081a28;
   transform: translateY(-3px);
 }
 .trk-btn:hover.trk-btn--secondary1 {
   transform: translateY(-3px);
 }
 .trk-btn:hover.trk-btn--secondary3 i,
-.trk-btn:hover.trk-btn--secondary3 svg, .trk-btn:hover.trk-btn--secondary2 i,
-.trk-btn:hover.trk-btn--secondary2 svg, .trk-btn:hover.trk-btn--primary2 i,
+.trk-btn:hover.trk-btn--secondary3 svg,
+.trk-btn:hover.trk-btn--secondary2 i,
+.trk-btn:hover.trk-btn--secondary2 svg,
+.trk-btn:hover.trk-btn--primary2 i,
 .trk-btn:hover.trk-btn--primary2 svg {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
@@ -4131,7 +5043,8 @@ ol {
   transform: translateY(-3px);
 }
 .trk-btn:hover.trk-btn--primary4 i,
-.trk-btn:hover.trk-btn--primary4 svg, .trk-btn:hover.trk-btn--secondary4 i,
+.trk-btn:hover.trk-btn--primary4 svg,
+.trk-btn:hover.trk-btn--secondary4 i,
 .trk-btn:hover.trk-btn--secondary4 svg {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
@@ -4165,11 +5078,11 @@ ol {
   transform: rotate(10deg);
 }
 .trk-btn:hover.trk-btn--apply {
-  color: #B1FDAF;
+  color: #b1fdaf;
 }
 .trk-btn-active--style1 {
-  background-color: #B1FDAF;
-  border-color: #B1FDAF;
+  background-color: #b1fdaf;
+  border-color: #b1fdaf;
 }
 .trk-btn--secondary {
   background-color: transparent;
@@ -4263,7 +5176,7 @@ ol {
 .tab-btn {
   font-size: 1rem;
   border: transparent;
-  color: #081A28;
+  color: #081a28;
   font-weight: 500;
   font-family: "Inter", sans-serif;
   padding: 0.75rem 1rem;
@@ -4290,7 +5203,7 @@ ol {
   width: 100%;
   height: 100%;
   z-index: 99999999;
-  background: #081A28;
+  background: #081a28;
 }
 .preloader--style2 {
   background-color: #125875;
@@ -4299,7 +5212,7 @@ ol {
   background-color: #463266;
 }
 .preloader--style4 {
-  background-color: #248D88;
+  background-color: #248d88;
 }
 .preloader__book {
   --color: #fff;
@@ -4441,7 +5354,8 @@ ol {
   4% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  13%, 37% {
+  13%,
+  37% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4457,7 +5371,8 @@ ol {
   5.86% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  14.74%, 38.86% {
+  14.74%,
+  38.86% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4473,7 +5388,8 @@ ol {
   7.72% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  16.48%, 40.72% {
+  16.48%,
+  40.72% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4489,7 +5405,8 @@ ol {
   9.58% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  18.22%, 42.58% {
+  18.22%,
+  42.58% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4505,7 +5422,8 @@ ol {
   11.44% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  19.96%, 44.44% {
+  19.96%,
+  44.44% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4521,7 +5439,8 @@ ol {
   13.3% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  21.7%, 46.3% {
+  21.7%,
+  46.3% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4537,7 +5456,8 @@ ol {
   15.16% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  23.44%, 48.16% {
+  23.44%,
+  48.16% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4553,7 +5473,8 @@ ol {
   17.02% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  25.18%, 50.02% {
+  25.18%,
+  50.02% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4569,7 +5490,8 @@ ol {
   18.88% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  26.92%, 51.88% {
+  26.92%,
+  51.88% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4585,7 +5507,8 @@ ol {
   20.74% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  28.66%, 53.74% {
+  28.66%,
+  53.74% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4601,7 +5524,8 @@ ol {
   22.6% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  30.4%, 55.6% {
+  30.4%,
+  55.6% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4617,7 +5541,8 @@ ol {
   24.46% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  32.14%, 57.46% {
+  32.14%,
+  57.46% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4633,7 +5558,8 @@ ol {
   26.32% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  33.88%, 59.32% {
+  33.88%,
+  59.32% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4649,7 +5575,8 @@ ol {
   28.18% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  35.62%, 61.18% {
+  35.62%,
+  61.18% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4665,7 +5592,8 @@ ol {
   30.04% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  37.36%, 63.04% {
+  37.36%,
+  63.04% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4681,7 +5609,8 @@ ol {
   31.9% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  39.1%, 64.9% {
+  39.1%,
+  64.9% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4697,7 +5626,8 @@ ol {
   33.76% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  40.84%, 66.76% {
+  40.84%,
+  66.76% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4713,7 +5643,8 @@ ol {
   35.62% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  42.58%, 68.62% {
+  42.58%,
+  68.62% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4729,7 +5660,8 @@ ol {
   37.48% {
     transform: rotateZ(0deg) translateX(-18px);
   }
-  44.32%, 70.48% {
+  44.32%,
+  70.48% {
     /* changed from 54 + $delay% */
     transform: rotateZ(180deg) translateX(-18px);
   }
@@ -4745,13 +5677,16 @@ ol {
   4% {
     transform: rotateZ(90deg);
   }
-  10%, 40% {
+  10%,
+  40% {
     transform: rotateZ(0deg);
   }
-  46%, 54% {
+  46%,
+  54% {
     transform: rotateZ(90deg);
   }
-  60%, 90% {
+  60%,
+  90% {
     transform: rotateZ(0deg);
   }
   96% {
@@ -4762,13 +5697,16 @@ ol {
   4% {
     transform: rotateZ(-90deg);
   }
-  10%, 40% {
+  10%,
+  40% {
     transform: rotateZ(0deg);
   }
-  46%, 54% {
+  46%,
+  54% {
     transform: rotateZ(-90deg);
   }
-  60%, 90% {
+  60%,
+  90% {
     transform: rotateZ(0deg);
   }
   96% {
@@ -4779,17 +5717,21 @@ ol {
   4% {
     transform: rotateZ(-90deg);
   }
-  10%, 40% {
+  10%,
+  40% {
     transform: rotateZ(0deg);
     transform-origin: 2px 2px;
   }
-  40.01%, 59.99% {
+  40.01%,
+  59.99% {
     transform-origin: 30px 2px;
   }
-  46%, 54% {
+  46%,
+  54% {
     transform: rotateZ(90deg);
   }
-  60%, 90% {
+  60%,
+  90% {
     transform: rotateZ(0deg);
     transform-origin: 2px 2px;
   }
@@ -4838,7 +5780,8 @@ ol {
     font-size: 18px;
   }
 }
-.categories--style1 .categories__item-content a:active, .categories--style1 .categories__item-content a:hover {
+.categories--style1 .categories__item-content a:active,
+.categories--style1 .categories__item-content a:hover {
   text-decoration: underline !important;
 }
 .categories--style1 .categories__thumb {
@@ -4853,19 +5796,19 @@ ol {
   }
 }
 .categories--style1 .categories__thumb--cat1 {
-  background-color: #EBFEEA;
+  background-color: #ebfeea;
 }
 .categories--style1 .categories__thumb--cat2 {
-  background-color: #FFE3EC;
+  background-color: #ffe3ec;
 }
 .categories--style1 .categories__thumb--cat3 {
-  background-color: #F2E9FF;
+  background-color: #f2e9ff;
 }
 .categories--style2 .categories__item {
   gap: 15px;
 }
 .categories--style2 .categories__item-inner {
-  background-color: #D6F2FE;
+  background-color: #d6f2fe;
   transition: all 0.3s linear;
   border-radius: 8px;
   width: 100%;
@@ -4880,8 +5823,8 @@ ol {
   box-shadow: -2px 8px 24px 0px rgba(72, 156, 190, 0.2);
 }
 .categories--style2 .categories__item-inner:hover .categories__item-btn {
-  background-color: #FF7350;
-  border: 1px solid #FF7350;
+  background-color: #ff7350;
+  border: 1px solid #ff7350;
 }
 .categories--style2 .categories__item-inner:hover i,
 .categories--style2 .categories__item-inner:hover svg {
@@ -4894,8 +5837,8 @@ ol {
   border-radius: 50px;
   margin: auto;
   z-index: 1;
-  border: 1px solid #248D88;
-  color: #248D88;
+  border: 1px solid #248d88;
+  color: #248d88;
 }
 .categories--style2 .categories__item-btn i,
 .categories--style2 .categories__item-btn svg {
@@ -4950,7 +5893,7 @@ ol {
   }
 }
 .categories--style4 .categories__item-inner {
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
   border-radius: 15px;
   transition: all 0.3s linear;
 }
@@ -4973,7 +5916,7 @@ ol {
   border-radius: 99px;
 }
 .categories--style4 .categories__item-inner:hover {
-  background-color: #FED049;
+  background-color: #fed049;
 }
 .categories--style4 .categories__item-content h5 {
   font-family: "Solway", serif;
@@ -5119,11 +6062,16 @@ ol {
   left: 0%;
 }
 .about--style3 .about__icon-item:nth-child(1).about__icon-item--animation {
-  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 @media (min-width: 576px) {
   .about--style3 .about__icon-item:nth-child(1) {
@@ -5147,10 +6095,14 @@ ol {
   top: 0%;
 }
 .about--style3 .about__icon-item:nth-child(2).about__icon-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
@@ -5179,7 +6131,7 @@ ol {
   }
 }
 .about--style4 .about__content h2 {
-  color: #248D88;
+  color: #248d88;
 }
 @media (min-width: 576px) {
   .about--style4 .about__content p:not(:first-child) {
@@ -5212,11 +6164,16 @@ ol {
   top: 15%;
   right: 8%;
   z-index: -1;
-  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  -webkit-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  animation: left-right 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 @media (min-width: 768px) {
   .about--style4 .about__shape-item {
@@ -5247,7 +6204,7 @@ ol {
   border-top-left-radius: 49%;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
   object-fit: cover;
 }
 .about--style5 .about__thumb img {
@@ -5309,7 +6266,7 @@ ol {
   font-weight: 600;
 }
 .course--style1 .course__content-top h4:hover a {
-  color: #081A28;
+  color: #081a28;
 }
 .course--style1 .course__content h6 {
   font-weight: 600;
@@ -5367,18 +6324,18 @@ ol {
   font-size: 0.75rem;
   padding: 0.15rem 1rem;
   border-radius: 50px;
-  color: #081A28;
+  color: #081a28;
   font-weight: 500;
   text-transform: capitalize;
 }
 .course--style1 .course__meta-tag--cat1 {
-  background-color: #FFE3EC;
+  background-color: #ffe3ec;
 }
 .course--style1 .course__meta-tag--cat2 {
-  background-color: #EBFEEA;
+  background-color: #ebfeea;
 }
 .course--style1 .course__meta-tag--cat3 {
-  background-color: #F2E9FF;
+  background-color: #f2e9ff;
 }
 .course--style1 .course__meta-comment {
   color: #475467;
@@ -5390,7 +6347,7 @@ ol {
   font-weight: 500;
   display: inline-grid;
   place-items: center;
-  background-color: #081A28 !important;
+  background-color: #081a28 !important;
   color: #000;
 }
 .course--style1 .course__view {
@@ -5401,14 +6358,15 @@ ol {
   display: inline-flex;
   align-items: center;
 }
-.course--style1 .course__view-count p i, .course--style1 .course__view-count p svg {
-  color: #081A28;
+.course--style1 .course__view-count p i,
+.course--style1 .course__view-count p svg {
+  color: #081a28;
 }
 .course--style1 .course__view-search .form-control {
   border-radius: 0.5rem;
 }
 .course--style1 .course__view-search .search-icon {
-  background-color: #081A28;
+  background-color: #081a28;
   padding-inline: 1rem;
   border-color: transparent;
   color: #fff;
@@ -5444,12 +6402,13 @@ ol {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
-.course--style1 .course__btn--save:hover, .course--style1 .course__btn--save.saved {
-  background-color: #B1FDAF;
+.course--style1 .course__btn--save:hover,
+.course--style1 .course__btn--save.saved {
+  background-color: #b1fdaf;
   color: #101828;
 }
 .course--style1 .course__btn--active {
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
   color: #101828;
 }
 .course--style1 .course__topbar {
@@ -5486,7 +6445,7 @@ ol {
   border: 1px solid rgba(8, 26, 40, 0.7);
 }
 .course--style1 .course__topbar-left .select:hover::after {
-  color: #B1FDAF;
+  color: #b1fdaf;
 }
 .course--style1 .course__topbar-right .nav {
   background-color: rgba(103, 156, 197, 0.16);
@@ -5523,8 +6482,9 @@ ol {
     border-radius: 99px;
   }
 }
-.course--style1 .course__topbar-right ul li button:hover, .course--style1 .course__topbar-right ul li button.active {
-  background-color: #081A28;
+.course--style1 .course__topbar-right ul li button:hover,
+.course--style1 .course__topbar-right ul li button.active {
+  background-color: #081a28;
   color: #fff;
 }
 .course--style2 .course__item-inner {
@@ -5570,8 +6530,8 @@ ol {
   }
 }
 .course--style2 .course__thumb:hover .course__thumb-add {
-  background-color: #FF7350;
-  border: #FF7350;
+  background-color: #ff7350;
+  border: #ff7350;
 }
 .course--style2 .course__thumb:hover img {
   border-radius: 30px;
@@ -5592,12 +6552,12 @@ ol {
   max-inline-size: 16ch;
 }
 .course--style2 .course__content-details h6 a:hover {
-  color: #FF7350;
+  color: #ff7350;
   text-decoration: underline;
 }
 .course--style2 .course__content-price h6 {
   font-weight: 600;
-  background-color: #D6F2FE;
+  background-color: #d6f2fe;
   border-radius: 8px;
 }
 .course--style3 .course__wrapper .nav {
@@ -5617,8 +6577,9 @@ ol {
 .course--style3 .course__wrapper ul li button {
   color: #667085;
 }
-.course--style3 .course__wrapper ul li button:hover, .course--style3 .course__wrapper ul li button.active {
-  background-color: #FF7350;
+.course--style3 .course__wrapper ul li button:hover,
+.course--style3 .course__wrapper ul li button.active {
+  background-color: #ff7350;
   color: #fff;
 }
 .course--style3 .course__item {
@@ -5648,7 +6609,7 @@ ol {
   font-weight: 600;
 }
 .course--style3 .course__content-top h4:hover a {
-  color: #081A28;
+  color: #081a28;
 }
 .course--style3 .course__content h6 {
   -webkit-transition: all 0.3s linear;
@@ -5664,9 +6625,10 @@ ol {
 .course--style3 .course__content-bottom--border {
   border-top: 1px solid rgba(8, 26, 40, 0.1);
 }
-.course--style3 .course__content-enroll a span i, .course--style3 .course__content-enroll a span svg {
+.course--style3 .course__content-enroll a span i,
+.course--style3 .course__content-enroll a span svg {
   transform: rotate(-45deg);
-  color: #FF7350;
+  color: #ff7350;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
@@ -5676,7 +6638,8 @@ ol {
 .course--style3 .course__content-enroll:hover a {
   text-decoration: underline;
 }
-.course--style3 .course__content-enroll:hover a span i, .course--style3 .course__content-enroll:hover a span svg {
+.course--style3 .course__content-enroll:hover a span i,
+.course--style3 .course__content-enroll:hover a span svg {
   transform: rotate(0deg);
 }
 .course--style3 .course__content:hover h6 {
@@ -5687,12 +6650,12 @@ ol {
 }
 .course--style3 .course__focus i,
 .course--style3 .course__focus svg {
-  color: #FF7350;
+  color: #ff7350;
 }
 .course--style3 .course__price > p {
   font-size: 1.25rem;
   font-family: "Poppins", sans-serif;
-  background-color: #0F7494;
+  background-color: #0f7494;
   color: #fff;
 }
 .course--style3 .course__mentor {
@@ -5750,7 +6713,7 @@ ol {
   font-weight: 600;
 }
 .course--style4 .course__content-top h4:hover a {
-  color: #081A28;
+  color: #081a28;
 }
 .course--style4 .course__content h5 {
   font-family: "Solway", serif;
@@ -5758,7 +6721,7 @@ ol {
 .course--style4 .course__content-footer {
   font-size: 1rem;
   font-weight: 700;
-  color: #248D88;
+  color: #248d88;
   gap: 5px;
 }
 .course--style4 .course__content-footer a {
@@ -5842,7 +6805,11 @@ ol {
   bottom: 0;
   height: 0;
   width: 100%;
-  background: linear-gradient(360deg, rgba(1, 11, 18, 0.7) -43.36%, rgba(2, 14, 23, 0) 100%);
+  background: linear-gradient(
+    360deg,
+    rgba(1, 11, 18, 0.7) -43.36%,
+    rgba(2, 14, 23, 0) 100%
+  );
   opacity: 0;
 }
 .team--style1 .team__item-thumb {
@@ -5910,7 +6877,8 @@ ol {
 .team--style1 .team__item:hover .team__item-author h6 a {
   color: #fff;
 }
-.team--style1 .team__item:hover .team__item-content--style2, .team--style1 .team__item:hover .team__item-content--style1 {
+.team--style1 .team__item:hover .team__item-content--style2,
+.team--style1 .team__item:hover .team__item-content--style1 {
   opacity: 1;
   visibility: visible;
   bottom: 0;
@@ -5997,16 +6965,16 @@ ol {
   color: #667085;
 }
 .team--details .team__content > span {
-  color: #FED049;
+  color: #fed049;
 }
 .team--details .team__content > span i,
 .team--details .team__content > span svg {
-  color: #FED049;
+  color: #fed049;
 }
 @media (max-width: 575px) {
   .team--home4 {
     background-image: none;
-    background-color: #FED049;
+    background-color: #fed049;
   }
 }
 
@@ -6080,21 +7048,21 @@ ol {
   font-size: 0.875rem;
   padding: 0.15rem 1rem;
   border-radius: 50px;
-  color: #081A28;
+  color: #081a28;
   font-weight: 400;
   text-transform: capitalize;
 }
 .blog--style1 .blog__meta-tag--cat1 {
-  background-color: #FFE3EC;
+  background-color: #ffe3ec;
 }
 .blog--style1 .blog__meta-tag--cat2 {
-  background-color: #EBFEEA;
+  background-color: #ebfeea;
 }
 .blog--style1 .blog__meta-tag--cat3 {
-  background-color: #F2E9FF;
+  background-color: #f2e9ff;
 }
 .blog--style1 .blog__meta-tag--cat4 {
-  background-color: #FED049;
+  background-color: #fed049;
 }
 .blog--style1 .blog__meta-comment {
   color: #475467;
@@ -6106,7 +7074,7 @@ ol {
   font-weight: 500;
   display: inline-grid;
   place-items: center;
-  background-color: #081A28 !important;
+  background-color: #081a28 !important;
   color: #000;
 }
 .blog--style1 .blog__view {
@@ -6119,13 +7087,13 @@ ol {
 }
 .blog--style1 .blog__view-count p i,
 .blog--style1 .blog__view-count p svg {
-  color: #081A28;
+  color: #081a28;
 }
 .blog--style1 .blog__view-search .form-control {
   border-radius: 0.5rem;
 }
 .blog--style1 .blog__view-search .search-icon {
-  background-color: #081A28;
+  background-color: #081a28;
   padding-inline: 1rem;
   border-color: transparent;
   color: #fff;
@@ -6161,8 +7129,9 @@ ol {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
-.blog--style1 .blog__btn--save:hover, .blog--style1 .blog__btn--save.saved {
-  background-color: #B1FDAF;
+.blog--style1 .blog__btn--save:hover,
+.blog--style1 .blog__btn--save.saved {
+  background-color: #b1fdaf;
   color: #101828;
 }
 @media (min-width: 992px) {
@@ -6203,7 +7172,7 @@ ol {
   border-radius: 8px;
 }
 .blog--style2 .blog__large {
-  background-color: #D6F2FE;
+  background-color: #d6f2fe;
   border-radius: 8px;
 }
 @media (min-width: 768px) {
@@ -6266,7 +7235,7 @@ ol {
   transform: scale(1.05);
 }
 .blog--style2 .blog__large:hover .blog__large-content h5 a {
-  color: #FF7350;
+  color: #ff7350;
 }
 .blog--style2 .blog__author {
   gap: 20px;
@@ -6298,7 +7267,7 @@ ol {
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-color: #D6F2FE;
+  background-color: #d6f2fe;
   border-radius: 0.5rem;
   box-shadow: 8px 16px 30px 0px rgba(156, 190, 217, 0.1215686275);
 }
@@ -6313,7 +7282,7 @@ ol {
   transform: scale(1.05);
 }
 .blog--style2 .blog__item:hover .blog__content h5 a {
-  color: #FF7350;
+  color: #ff7350;
 }
 .blog--style2 .blog__item--style2 {
   background-color: rgba(0, 0, 0, 0.2);
@@ -6363,7 +7332,7 @@ ol {
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
   box-shadow: 8px 16px 30px 0px rgba(156, 190, 217, 0.1215686275);
 }
 .blog--style3 .blog__item:hover {
@@ -6377,7 +7346,7 @@ ol {
   transform: scale(1.09);
 }
 .blog--style3 .blog__item:hover .blog__content h5 a {
-  color: #FF7350;
+  color: #ff7350;
 }
 .blog--style3 .blog__thumb img {
   -webkit-transition: all 0.3s linear;
@@ -6485,7 +7454,7 @@ ol {
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-color: #081A28;
+  background-color: #081a28;
   color: #fff;
   padding-block: 8px;
   padding-inline: 24px;
@@ -6502,13 +7471,13 @@ ol {
   }
 }
 .blog--details .blog__tag .social-link-list li a.facebook {
-  background: #3D6AD6;
+  background: #3d6ad6;
 }
 .blog--details .blog__tag .social-link-list li a.twitter {
-  background: #1DA1F3;
+  background: #1da1f3;
 }
 .blog--details .blog__tag .social-link-list li a.linkedin {
-  background: #0077B5;
+  background: #0077b5;
 }
 .blog--details .blog__tag .social-link-list li a:hover {
   background-color: #101828;
@@ -6519,7 +7488,7 @@ ol {
 }
 .blog--details .blog__tag .tags li a {
   color: #475467;
-  background-color: #EAECF0;
+  background-color: #eaecf0;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
@@ -6529,7 +7498,7 @@ ol {
   border-radius: 8px;
 }
 .blog--details .blog__tag .tags li a:hover {
-  background-color: #081A28;
+  background-color: #081a28;
   color: #fff;
 }
 .blog__two .blog__meta {
@@ -6659,7 +7628,7 @@ ol {
   font-size: inherit;
 }
 .social__link--rounded4 {
-  background-color: #FED049;
+  background-color: #fed049;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -6689,7 +7658,7 @@ ol {
   transition: all 0.3s linear;
   width: 35px;
   height: 35px;
-  background-color: #081A28;
+  background-color: #081a28;
   line-height: 35px;
   border-radius: 50px;
 }
@@ -6699,7 +7668,7 @@ ol {
   font-size: inherit;
 }
 .social__link:hover.social__link--rounded1 {
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
 }
 .social__link:hover.social__link--rounded1 svg,
 .social__link:hover.social__link--rounded1 i {
@@ -6713,7 +7682,7 @@ ol {
   color: #fff;
 }
 .social__link:hover.social__link--rounded5 {
-  background-color: #B1FDAF;
+  background-color: #b1fdaf;
 }
 .social__link:hover.social__link--rounded5 svg,
 .social__link:hover.social__link--rounded5 i {
@@ -6721,17 +7690,17 @@ ol {
 }
 .social__link:hover.social__link--defult svg,
 .social__link:hover.social__link--defult i {
-  color: #FF7350;
+  color: #ff7350;
 }
 
 .testimonial--style1 .testimonial__item {
   color: #fff;
-  background-color: #081A28;
+  background-color: #081a28;
 }
 .testimonial--style1 .testimonial__item-content span i,
 .testimonial--style1 .testimonial__item-content span svg {
   font-size: calc(1.5625rem + 3.2142857143vw);
-  color: #B1FDAF;
+  color: #b1fdaf;
 }
 @media (min-width: 1400px) {
   .testimonial--style1 .testimonial__item-content span i,
@@ -6741,7 +7710,7 @@ ol {
 }
 .testimonial--style1 .testimonial__item-content blockquote p {
   font-size: calc(1.325rem + 0.7714285714vw);
-  color: #98A2B3;
+  color: #98a2b3;
   max-inline-size: 53ch;
   margin: 0 auto;
 }
@@ -6804,14 +7773,21 @@ ol {
   border-radius: 99px;
   max-inline-size: 85%;
 }
-.testimonial--style1 .testimonial__author .swiper-slide-thumb-active .testimonial__author-thumb {
-  border: 1px solid #B1FDAF;
+.testimonial--style1
+  .testimonial__author
+  .swiper-slide-thumb-active
+  .testimonial__author-thumb {
+  border: 1px solid #b1fdaf;
 }
-.testimonial--style1 .testimonial__author .swiper-slide-thumb-active .testimonial__author-thumb img {
+.testimonial--style1
+  .testimonial__author
+  .swiper-slide-thumb-active
+  .testimonial__author-thumb
+  img {
   border-radius: 99px;
 }
 .testimonial--style1.brand-4 .testimonial__item {
-  background-color: #248D88;
+  background-color: #248d88;
 }
 .testimonial--style1.brand-4 .testimonial__item-content blockquote p {
   color: #fff;
@@ -6863,7 +7839,7 @@ ol {
 .testimonial--style2 .testimonial__rating span i,
 .testimonial--style2 .testimonial__rating span svg {
   font-size: 1rem;
-  color: #F4BD15;
+  color: #f4bd15;
 }
 @media (max-width: 575px) {
   .testimonial--style2 .testimonial__rating {
@@ -6889,11 +7865,16 @@ ol {
   bottom: -5%;
   left: -5%;
 }
-.testimonial--style2 .testimonial__shape-item:nth-child(1).banner__shape-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.testimonial--style2
+  .testimonial__shape-item:nth-child(1).banner__shape-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 768px) {
@@ -6916,11 +7897,16 @@ ol {
   bottom: -5%;
   right: -5%;
 }
-.testimonial--style2 .testimonial__shape-item:nth-child(2).banner__shape-item--animation {
-  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
-  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+.testimonial--style2
+  .testimonial__shape-item:nth-child(2).banner__shape-item--animation {
+  -webkit-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -moz-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -ms-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
+  -o-animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
   animation: floating 2s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 768px) {
@@ -6953,7 +7939,7 @@ ol {
 }
 .testimonial--style3 .testimonial__writer > span i,
 .testimonial--style3 .testimonial__writer > span svg {
-  color: #FF7350;
+  color: #ff7350;
 }
 .testimonial--style3 .testimonial__content blockquote p {
   font-size: 1.125rem;
@@ -6979,7 +7965,7 @@ ol {
 }
 .testimonial--style3 .testimonial__thumb-playbtn span {
   font-size: 0.875rem;
-  color: #FF7350;
+  color: #ff7350;
 }
 .testimonial--style3 .testimonial__thumb-playbtn a img {
   object-fit: cover;
@@ -7109,7 +8095,7 @@ ol {
     left: auto;
     right: 0;
     top: 30%;
-    background-color: #D6F2FE;
+    background-color: #d6f2fe;
     opacity: 0.5;
   }
 }
@@ -7155,7 +8141,7 @@ ol {
 }
 
 .feature {
-  background-color: #F7FBFE;
+  background-color: #f7fbfe;
 }
 .feature__item-inner {
   background-color: #fff;
@@ -7196,11 +8182,11 @@ ol {
   }
 }
 .coursedetails--style1 .coursedetails__focus-rating {
-  color: #ECC132;
+  color: #ecc132;
 }
 .coursedetails--style1 .coursedetails__focus-star ul li {
   font-size: 0.75rem;
-  color: #ECC132;
+  color: #ecc132;
 }
 .coursedetails--style1 .coursedetails__focus-count {
   font-size: 1.125rem;
@@ -7220,7 +8206,7 @@ ol {
     content: "";
     width: 100%;
     height: 1px;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     bottom: 1px;
     display: block;
   }
@@ -7245,7 +8231,8 @@ ol {
     padding-bottom: 25px;
   }
 }
-.coursedetails--style1 .coursedetails__info ul li button:hover, .coursedetails--style1 .coursedetails__info ul li button.active {
+.coursedetails--style1 .coursedetails__info ul li button:hover,
+.coursedetails--style1 .coursedetails__info ul li button.active {
   color: #299684;
   z-index: 1;
   border-bottom: 3px solid #299684;
@@ -7259,7 +8246,7 @@ ol {
 }
 .coursedetails--style1 .coursedetails__overview .overview-list li i,
 .coursedetails--style1 .coursedetails__overview .overview-list li svg {
-  color: #7044B0;
+  color: #7044b0;
 }
 .coursedetails--style1 .coursedetails__overview-helpline .thumb {
   border-radius: 8px;
@@ -7306,7 +8293,7 @@ ol {
   transform: scale(1.03);
 }
 .coursedetails--style1 .coursedetails__package {
-  border: 1px solid #EAECF0;
+  border: 1px solid #eaecf0;
   border-radius: 15px;
   position: sticky;
   top: 130px;
@@ -7315,13 +8302,13 @@ ol {
   gap: 10px;
 }
 .coursedetails--style1 .coursedetails__offer-price span {
-  color: #98A2B3;
+  color: #98a2b3;
 }
 .coursedetails--style1 .coursedetails__offer-time p {
-  color: #FF7350;
+  color: #ff7350;
 }
 .coursedetails--style1 .coursedetails__footer {
-  border-top: 1px solid #EAECF0;
+  border-top: 1px solid #eaecf0;
 }
 .coursedetails--style1 .coursedetails__footer p {
   color: #101828;
@@ -7368,7 +8355,7 @@ ol {
 .coursedetails--style1 .coursedetails__coursereviews-rating span i,
 .coursedetails--style1 .coursedetails__coursereviews-rating span svg {
   font-size: 14px;
-  color: #F4BD15;
+  color: #f4bd15;
 }
 .coursedetails--style1 .coursedetails__coursereviews-rating span i.mute,
 .coursedetails--style1 .coursedetails__coursereviews-rating span svg.mute {
@@ -7447,8 +8434,8 @@ ol {
   }
 }
 .cta__content-inner .form .form-control {
-  background-color: #1A263E;
-  border-color: #1A263E;
+  background-color: #1a263e;
+  border-color: #1a263e;
   color: #fff;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -7487,7 +8474,8 @@ ol {
   border-radius: 0.5rem;
   background-color: #fff;
 }
-.accordion__item__button, .accordion__item__body {
+.accordion__item__button,
+.accordion__item__body {
   background-color: rgba(255, 255, 255, 0.09);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
@@ -7499,7 +8487,7 @@ ol {
 }
 .accordion__button .lesson-name {
   font-size: 1.25rem;
-  color: #081A28;
+  color: #081a28;
   font-family: "Poppins", sans-serif;
 }
 .accordion__button .lesson .lesson-number {
@@ -7520,7 +8508,8 @@ ol {
     display: initial;
   }
 }
-.accordion__button .plus-icon:before, .accordion__button .plus-icon:after {
+.accordion__button .plus-icon:before,
+.accordion__button .plus-icon:after {
   content: "";
   background-color: #475467;
 }
@@ -7582,7 +8571,7 @@ ol {
     border-radius: 10px;
   }
   .cart__top::-webkit-scrollbar-thumb {
-    background-color: #081A28;
+    background-color: #081a28;
     border-radius: 10px;
   }
 }
@@ -7633,16 +8622,17 @@ ol {
   transition: all 0.3s linear;
 }
 .cart__top table tbody tr td.course-item .c-content a:hover {
-  color: #081A28;
+  color: #081a28;
 }
 .cart__top table tbody tr td.course-item .c-content .c-reviews {
   gap: 5px;
 }
 .cart__top table tbody tr td.course-item .c-content .c-reviews ul li {
   font-size: 0.75rem;
-  color: #ECC132;
+  color: #ecc132;
 }
-.cart__top table tbody tr td.course-item .c-content .c-reviews ul li i.mute, .cart__top table tbody tr td.course-item .c-content .c-reviews ul li svg.mute {
+.cart__top table tbody tr td.course-item .c-content .c-reviews ul li i.mute,
+.cart__top table tbody tr td.course-item .c-content .c-reviews ul li svg.mute {
   color: #475467;
 }
 .cart__top table tbody tr td.course-item .c-content .c-reviews p {
@@ -7663,7 +8653,7 @@ ol {
   transition: all 0.3s linear;
 }
 .cart__top table tbody tr td.course-delete a:hover {
-  color: #FF0000;
+  color: #ff0000;
 }
 .cart__bottom {
   background-color: rgba(234, 236, 240, 0.5);
@@ -7687,9 +8677,9 @@ ol {
   }
 }
 .cart__bottom-checkoutbox .cart-checkout input {
-  color: #081A28;
+  color: #081a28;
 }
-.cart__bottom-checkoutbox .cart-checkout input[type=submit] {
+.cart__bottom-checkoutbox .cart-checkout input[type="submit"] {
   padding: 10px 20px;
   width: auto;
   background: rgba(8, 26, 40, 0.1);
@@ -7702,17 +8692,17 @@ ol {
   border-radius: 3px;
 }
 @media (max-width: 575px) {
-  .cart__bottom-checkoutbox .cart-checkout input[type=submit] {
+  .cart__bottom-checkoutbox .cart-checkout input[type="submit"] {
     width: 100%;
     margin-bottom: 15px;
   }
-  .cart__bottom-checkoutbox .cart-checkout input[type=submit]:last-child {
+  .cart__bottom-checkoutbox .cart-checkout input[type="submit"]:last-child {
     margin-bottom: 0;
   }
 }
-.cart__bottom-checkoutbox .cart-checkout input[type=submit]:hover {
-  background-color: #081A28;
-  border-color: #081A28;
+.cart__bottom-checkoutbox .cart-checkout input[type="submit"]:hover {
+  background-color: #081a28;
+  border-color: #081a28;
   color: #fff;
 }
 .cart__bottom-shipingbox ul li span {
@@ -7733,7 +8723,7 @@ ol {
   border-radius: 5px;
 }
 .cart__bottom-shipingbox .calculate-shiping input:focus {
-  border-color: #081A28;
+  border-color: #081a28;
 }
 .cart__bottom-shipingbox .cart-overview h4::after {
   content: "";
@@ -7741,7 +8731,7 @@ ol {
   bottom: -40%;
   height: 1px;
   width: 100%;
-  background-color: #EAECF0;
+  background-color: #eaecf0;
 }
 .cart__bottom-shipingbox .cart-overview ul {
   margin: 0;
@@ -7750,7 +8740,7 @@ ol {
   border: none;
 }
 .cart__bottom-shipingbox .cart-overview ul li .pull-right {
-  color: #081A28;
+  color: #081a28;
   font-weight: 600;
 }
 
@@ -7769,7 +8759,7 @@ ol {
   bottom: -40%;
   height: 1px;
   width: 100%;
-  background-color: #EAECF0;
+  background-color: #eaecf0;
 }
 .checkout__title p {
   font-size: 1.125rem;
@@ -7809,7 +8799,7 @@ ol {
 }
 .order__details .table tr td .o-info .c-reviews ul li {
   font-size: 0.625rem;
-  color: #ECC132;
+  color: #ecc132;
 }
 .order__details .table tr td .o-info .c-reviews ul li i.mute,
 .order__details .table tr td .o-info .c-reviews ul li svg.mute {
@@ -7844,7 +8834,7 @@ ol {
 }
 
 .sidebar .head h6 {
-  border-bottom: 2px solid #EAECF0;
+  border-bottom: 2px solid #eaecf0;
 }
 .sidebar .head h3.comment::after {
   content: "";
@@ -7873,7 +8863,7 @@ ol {
   border: none;
   outline: none;
   border-radius: 8px;
-  background-color: #081A28;
+  background-color: #081a28;
   color: #fff;
 }
 .sidebar__search form button i,
@@ -7920,7 +8910,7 @@ ol {
   transform: scale(1.01);
 }
 .sidebar__recentpost .body ul li:hover .content p a {
-  color: #081A28;
+  color: #081a28;
 }
 .sidebar__categorie {
   background-color: rgba(234, 236, 240, 0.5);
@@ -7962,12 +8952,13 @@ ol {
   outline: none;
   border-radius: 8px;
 }
-.sidebar__tags .body ul li a.active, .sidebar__tags .body ul li a:hover {
-  background-color: #081A28;
+.sidebar__tags .body ul li a.active,
+.sidebar__tags .body ul li a:hover {
+  background-color: #081a28;
   color: #fff;
 }
 .sidebar__comment-item {
-  border: 1px solid #EAECF0;
+  border: 1px solid #eaecf0;
   border-radius: 16px;
 }
 .sidebar__comment-item:last-child {
@@ -8038,7 +9029,7 @@ ol {
   font-size: 1rem;
   color: #fff;
   border-radius: 50px;
-  background-color: #081A28;
+  background-color: #081a28;
 }
 .sidebar__comment .body ul li .comment .content .reply a i,
 .sidebar__comment .body ul li .comment .content .reply a svg {
@@ -8049,7 +9040,8 @@ ol {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.sidebar__comment .body ul li .comment .content .reply a:hover i, .sidebar__comment .body ul li .comment .content .reply a:hover svg {
+.sidebar__comment .body ul li .comment .content .reply a:hover i,
+.sidebar__comment .body ul li .comment .content .reply a:hover svg {
   transform: translateX(-3px);
 }
 .studentreview__item-author h6 {
@@ -8119,7 +9111,7 @@ ol {
   }
 }
 .newsletter__content-inner--style1 {
-  background-color: #7044B0;
+  background-color: #7044b0;
   margin-bottom: -150px;
 }
 .newsletter__content-inner--style1 h2 {
@@ -8132,7 +9124,7 @@ ol {
   }
 }
 .newsletter__content-inner--style4 {
-  background-color: #FED049;
+  background-color: #fed049;
   margin-bottom: -150px;
 }
 .newsletter__content-inner--style4 .form {
@@ -8152,12 +9144,12 @@ ol {
   border-color: #fff;
 }
 .newsletter__content-inner--style4 .form .form-control::placeholder {
-  color: #98A2B3;
+  color: #98a2b3;
 }
 .newsletter__content-inner--style4 .form .btn {
   border-radius: 50px;
-  background: #248D88;
-  border-color: #248D88;
+  background: #248d88;
+  border-color: #248d88;
   margin-left: -25px;
   font-size: 1rem;
 }
@@ -8185,8 +9177,43 @@ ol {
 
 /*# sourceMappingURL=style.css.map */
 
-
-
-.logo-main{
+.logo-main {
   max-height: 45px;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333a45;
+  color: #fff;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 15vh;
+  /* opacity: 0.9; */
+}
+.loader span {
+  display: inline-block;
+  -webkit-animation: pulse 0.4s alternate infinite ease-in-out;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+}
+.loader span:nth-child(odd) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+@-webkit-keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
 }
