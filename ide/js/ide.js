@@ -400,6 +400,11 @@ $(document).ready(function () {
     run();
   });
 
+  $runBtnMobile = $("#run-btn-mobile");
+  $runBtnMobile.click(function (e) {
+    run();
+  });
+
   $navigationMessage = $("#navigation-message span");
   $updates = $("#judge0-more");
 
